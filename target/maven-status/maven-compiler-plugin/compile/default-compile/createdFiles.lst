@@ -5,6 +5,7 @@ com\programacion\ejemplosclasejava_2526\UT2\NotaMediaClase.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251113\Ej4.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251205\Rectangulo.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251205\Planta_UML.class
+com\programacion\ejemplosclasejava_2526\POO_avanzada\Docente.class
 com\programacion\ejemplosclasejava_2526\Repasos\PrevUT3\StringEj13.class
 com\programacion\ejemplosclasejava_2526\Repasos\previoRecuperacion\NotasEstudiantesArray.class
 com\programacion\ejemplosclasejava_2526\POO\Bicicleta.class
@@ -16,7 +17,9 @@ com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionA\Ej2b.c
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionA\Ej3b.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionA\Ej4b.class
 com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion1T\UT2Ej2.class
+com\programacion\ejemplosclasejava_2526\POO_avanzada\Empleado.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251205\Planta.class
+com\programacion\ejemplosclasejava_2526\POO_avanzada\Persona.class
 com\programacion\ejemplosclasejava_2526\Repasos\PrevUT3\DivisoresNumeroConMetodosArray.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionC\Ej2a.class
 com\programacion\ejemplosclasejava_2526\Basicos\EstructurasControl\EjemploIfElse.class
@@ -28,6 +31,7 @@ com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionC\Ej3b.c
 com\programacion\ejemplosclasejava_2526\POO\Libro.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251205\Videojuegos.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionC\Ej1b.class
+com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion1T\ReproductorMusica.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251113\Ej1.class
 com\programacion\ejemplosclasejava_2526\Repasos\PrevUT3\StringEj15.class
 com\programacion\ejemplosclasejava_2526\Metodos\Teoria.class
@@ -46,18 +50,21 @@ com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionB\Ej2b.c
 com\programacion\ejemplosclasejava_2526\Metodos\CodigoEspaguetti.class
 com\programacion\ejemplosclasejava_2526\Basicos\Bucles\EjFor.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionB\Ej3b.class
+com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion1T\UT3Ej3.class
 com\programacion\ejemplosclasejava_2526\Basicos\EstructurasControl\EjSwitchCase.class
 com\programacion\ejemplosclasejava_2526\Repasos\PrevUT3\TresEnRaya.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251113\Ej2.class
 com\programacion\ejemplosclasejava_2526\Repasos\PrevUT3\SumaCondicionada.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251113\Ej5.class
 com\programacion\ejemplosclasejava_2526\Repasos\PrevUT3\StringEj14.class
+com\programacion\ejemplosclasejava_2526\POO_avanzada\TestingPersona.class
 com\programacion\ejemplosclasejava_2526\Repasos\previoRecuperacion\TablasMultiplicar.class
 com\programacion\ejemplosclasejava_2526\UT2\EjemploIfElse.class
 com\programacion\ejemplosclasejava_2526\Basicos\Bucles\EjWhile.class
 com\programacion\ejemplosclasejava_2526\UT2\MinMaxArray.class
 com\programacion\ejemplosclasejava_2526\Metodos\CalculadoraNotaMediaConMetodosAvanzada.class
 com\programacion\ejemplosclasejava_2526\CadenasDeCaracteres\Ej1.class
+com\programacion\ejemplosclasejava_2526\POO_avanzada\Estudiante.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251113\Ej3.class
 com\programacion\ejemplosclasejava_2526\Metodos\CalculadoraBasicaConMetodos.class
 com\programacion\ejemplosclasejava_2526\POO\Rectangulo.class
