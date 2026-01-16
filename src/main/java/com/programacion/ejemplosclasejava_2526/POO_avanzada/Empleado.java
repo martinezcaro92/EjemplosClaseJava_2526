@@ -67,6 +67,22 @@ public class Empleado extends Persona {
     {
         return super.getApellido() + ", " + super.getNombre();
     }
-    
+    @Override
+    public String toString()
+    {
+        /* Siguiendo la progresión de los contenidos, el siguiente return sería
+            lógicamente válido, pero no es la mejor solución para trabajar con
+            POO avanzada (herencia) ya que no se reutiliza código*/
+        /*
+        return "nombre=" + super.getNombre() + ", apellido=" + super.getApellido() + 
+                ", dni=" + super.getDni() + ", numeroCuenta=" + this.numeroCuenta + 
+                ", puesto=" + this.puesto;
+        */
+        
+        /* Esta nueva implementación si que sería la más óptima dentro de la POO avanzada
+            ya que si se reutiliza el código de programación definido en la clase
+            padre. */
+        return super.toString() + ", numeroCuenta=" + this.numeroCuenta + ", puesto=" + this.puesto;
+    }
     
 }

@@ -45,6 +45,11 @@ public class TestingPersona {
         System.out.println("Nombre Completo (Estudiante): " + es2.getNombreCompleto());
         System.out.println("Nombre Completo (Docente): " + d2.getNombreCompleto());
         
+        System.out.println("");
+        System.out.println("toString (Persona): " + p2.toString());
+        System.out.println("toString (Empleado): " + em2.toString());
+        System.out.println("toString (Estudiante): " + es2.toString());
+        System.out.println("toString (Docente): " + d2.toString());
         
         Persona personas [] = new Persona [8];
         /* IMPORTANTE: Cuando se define un array Persona, NO SÓLO almacena objetos
@@ -58,6 +63,43 @@ public class TestingPersona {
         personas[5] = es2;
         personas[6] = d1;
         personas[7] = d2;
+        
+        
+        Persona p3 = new Persona ("Pepa", "Ortiz", "55555555E");
+        Estudiante es3 = new Estudiante("Antonio", "Gimenez", "66666666F", 
+                                        "Bachillerato", 2, 4567123, "IES Principe de Asturias");
+        
+        p3 = es3;
+        
+        Persona p4 = new Empleado ("Alejandra", "Fernandez", "77777777G", "ES09898883933033", "Ingeniera");
+        Persona p5 = new Empleado ("Adriana", "Montoya", "88888888H", "ES887654654654", "Enfermera");
+        
+        Empleado em5 = (Empleado) p5;
+                
+        System.out.println("");
+        System.out.println("toString (Persona - p3): " + p3.toString());
+        System.out.println("toString (Persona - p4): " + p4.toString());
+        System.out.println("toString (Persona - p5): " + p5.toString());
+        System.out.println("toString (Persona - em5): " + em5.toString());
+        
+        
+        /* Se recorre el array personas para ver que tipos de datos se tiene
+            en cada una de las posiciones, haciendo uso de la palabra reservada
+            instanceof */
+        int countEstudiante=0, countEmpleado=0, countDocente=0, countPersona=0;
+        for (int i = 0 ; i < personas.length; i++)
+        {
+            if (personas[i] instanceof Estudiante) countEstudiante++;
+            if (personas[i] instanceof Empleado) countEmpleado++;
+            if (personas[i] instanceof Docente) countDocente++;
+            if (personas[i] instanceof Persona) countPersona++;
+        }
+        System.out.println("");
+        System.out.println("Count Estudiante: " + countEstudiante);
+        System.out.println("Count Docente: " + countEstudiante);
+        System.out.println("Count Empleado: " + countEstudiante);
+        System.out.println("Count Persona: " + countPersona);
     }
+        
     
 }

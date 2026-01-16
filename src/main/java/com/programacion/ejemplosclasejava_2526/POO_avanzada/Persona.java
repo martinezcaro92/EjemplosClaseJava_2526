@@ -62,4 +62,9 @@ public class Persona {
         // Este método queda implementado y posteriormente será sobreescrito
         return nombre + " " + apellido;
     }
+    
+    public String toString()
+    {
+        return "nombre=" + this.nombre + ", apellido=" + apellido + ", dni=" + dni;
+    }
 }

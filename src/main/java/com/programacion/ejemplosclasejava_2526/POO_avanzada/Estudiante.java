@@ -62,4 +62,11 @@ public class Estudiante extends Persona {
     {
         this.centro = centro;
     }
+    
+    @Override
+    public String toString ()
+    {
+        return super.toString() + ", centro="+this.centro + ", curso=" + this.curso
+                + ", nivel=" + this.nivel + ", nre=" + this.nre;
+    }
 }

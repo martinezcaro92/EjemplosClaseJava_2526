@@ -1,5 +1,6 @@
 com\programacion\ejemplosclasejava_2526\Basicos\EstructurasControl\Ej4ViajeEstudios.class
 com\programacion\ejemplosclasejava_2526\POO\TestingPoo.class
+com\programacion\ejemplosclasejava_2526\POO_avanzada\Animal.class
 com\programacion\ejemplosclasejava_2526\UT2\MenuDoWhile.class
 com\programacion\ejemplosclasejava_2526\UT2\NotaMediaClase.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251113\Ej4.class
@@ -48,6 +49,7 @@ com\programacion\ejemplosclasejava_2526\CadenasDeCaracteres\Strings.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionB\Ej1b.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionB\Ej2b.class
 com\programacion\ejemplosclasejava_2526\Metodos\CodigoEspaguetti.class
+com\programacion\ejemplosclasejava_2526\POO_avanzada\TestingAnimal.class
 com\programacion\ejemplosclasejava_2526\Basicos\Bucles\EjFor.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionB\Ej3b.class
 com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion1T\UT3Ej3.class
@@ -60,6 +62,8 @@ com\programacion\ejemplosclasejava_2526\Repasos\PrevUT3\StringEj14.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\TestingPersona.class
 com\programacion\ejemplosclasejava_2526\Repasos\previoRecuperacion\TablasMultiplicar.class
 com\programacion\ejemplosclasejava_2526\UT2\EjemploIfElse.class
+com\programacion\ejemplosclasejava_2526\POO_avanzada\Gato.class
+com\programacion\ejemplosclasejava_2526\POO_avanzada\Perro.class
 com\programacion\ejemplosclasejava_2526\Basicos\Bucles\EjWhile.class
 com\programacion\ejemplosclasejava_2526\UT2\MinMaxArray.class
 com\programacion\ejemplosclasejava_2526\Metodos\CalculadoraNotaMediaConMetodosAvanzada.class

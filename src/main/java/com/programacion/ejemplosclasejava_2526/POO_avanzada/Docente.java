@@ -4,6 +4,8 @@
  */
 package com.programacion.ejemplosclasejava_2526.POO_avanzada;
 
+import java.util.Arrays;
+
 /**
  *
  * @author josem
@@ -55,4 +57,10 @@ public class Docente extends Persona {
         this.centro = centro;
     }
     
+    @Override
+    public String toString ()
+    {
+        return super.toString() + ", centro=" + this.centro + ", modulos="+ Arrays.toString(modulos) +
+                ", nrp=" + this.nrp;
+    }
 }
