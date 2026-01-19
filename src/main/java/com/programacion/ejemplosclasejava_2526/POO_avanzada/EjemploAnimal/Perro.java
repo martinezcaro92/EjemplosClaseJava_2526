@@ -2,24 +2,24 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.programacion.ejemplosclasejava_2526.POO_avanzada;
+package com.programacion.ejemplosclasejava_2526.POO_avanzada.EjemploAnimal;
 
 /**
  *
  * @author josem
  */
-public class Gato extends Animal {
-    public Gato ()
+public class Perro extends Animal {
+    public Perro()
     {
         super();
     }
-    public Gato (String nombre)
+    public Perro (String nombre)
     {
         super(nombre);
     }
     
-    public void maullar ()
+    public void ladrar ()
     {
-        System.out.println("miauuuuu");
+        System.out.println("guau, guau");
     }
 }
