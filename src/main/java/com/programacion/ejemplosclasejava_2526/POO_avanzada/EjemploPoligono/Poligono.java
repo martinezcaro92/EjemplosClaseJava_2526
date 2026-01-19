@@ -20,4 +20,13 @@ public abstract class Poligono {
     
     public abstract double area();
     public abstract double perimetro();
+    
+    public int getNumLados()
+    {
+        return numLados;
+    }
+    public void setNumLados (int numLados)
+    {
+        this.numLados = numLados;
+    }
 }
