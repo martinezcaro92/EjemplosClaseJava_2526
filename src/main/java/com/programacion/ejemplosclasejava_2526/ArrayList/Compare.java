@@ -57,12 +57,16 @@ public class Compare {
         listaCadenas.add("Bienvenido");
         listaCadenas.add("Chao");
         listaCadenas.add("Hasta luego");
-        
+               
         listaEnteros.add(10);
         listaEnteros.add(100);
         listaEnteros.add(5);
         listaEnteros.add(1);
         listaEnteros.add(7);
+        
+        // Otra forma de crear ArrayList en una sóla línea
+        ArrayList<String> listaCadenas2 = new ArrayList<String>(List.of("Pepe", "Ana", "Alfonso", "Francisca", "Pepa", "Rosa", "Paco"));
+        ArrayList<Integer> listaEnteros2 = new ArrayList<Integer>(List.of(1,2,3,4,5,6,7,8,9,0));
         
         
         /*Se inicializa una listaPersonas */
