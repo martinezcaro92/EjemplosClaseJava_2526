@@ -107,13 +107,12 @@ public class Compare {
         // El isEmpty() nos dará true si la lista está vacía y false si la lista tiene algún dato
         System.out.println("listaCadenas está vacía?: " + listaCadenas.isEmpty());
 
-        // REVISAR clone
         // En este caso son copias de datos completas, que se almacenan en posiciones
         // de memoria diferentes. Los cambios aplicados ahora en listaEnteros no afectan
         // a copiaEnteros
         ArrayList<Integer> copiaEnteros = new ArrayList<Integer>(listaEnteros);
         
-
+        // REVISAR clone
         // REVISAR sort
         // REVISAR arrayCadenas = listaCadenas.toArray();
         // REVISAR ArrayList<String> listaInvertida = listaCadenas.reversed();
