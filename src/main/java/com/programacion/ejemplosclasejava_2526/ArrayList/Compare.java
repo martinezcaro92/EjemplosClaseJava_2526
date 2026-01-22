@@ -129,6 +129,10 @@ public class Compare {
         // a copiaEnteros
         ArrayList<Integer> copiaEnteros = new ArrayList<Integer>(listaEnteros);
         
+        //REVISAR contains()
+        System.out.println("Existe (Primero)?: " + listaCadenas.contains("Primero"));
+        System.out.println("Existe (Ultimo123)?: " + listaCadenas.contains("Ultimo123"));
+
         // REVISAR clone
         ArrayList<Integer> listaEnterosClonada = (ArrayList<Integer>) listaEnteros.clone();
         // Para poder hacer uso del método clone() se necesita hacer un casting explicito
