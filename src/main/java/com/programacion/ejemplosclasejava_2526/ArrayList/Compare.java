@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.List;
 
 /**
  *
@@ -187,11 +188,39 @@ public class Compare {
         System.out.println("");
         imprimirLista(listaCadenas);
         
+        System.out.println("");
+        System.out.println("Recorrer listas sin necesidad de bucles (forEach)");
+        listaPersonas.forEach(p -> System.out.println(p.toString()));
+        System.out.println("");
+        System.out.println("Imprimir solo los objetos que cumplen con un criterio (apellido=Mulero)");
+        listaPersonas.stream() // El método stream() permite recorrer dinámicamente la lista sin bucles
+                     .filter(p->p.getApellido().equals("Mulero"))
+                     .forEach(System.out::println);
+        System.out.println("Imprimir solo los apellidos de las Personas");
+        listaPersonas.stream()
+                     .map(Persona::getApellido) // De cada elemento (en este caso Persona), mapea sólo el apellido
+                     .forEach(System.out::println); // De cada elemento obtenido, imprime lo que se obtiene
+        System.out.println("Pasar a una lista a parte los apellidos de las personas");
+        List<String> apellidos = listaPersonas.stream()
+                                              .map(Persona::getApellido)
+                                              .toList();
+        //Una List puede convertirse en ArrayList del siguiente modo
+        ArrayList<String> apellidosList = new ArrayList<String>(apellidos);
+        
+        imprimirLista(apellidos);
+        System.out.println("");
         
         
     } 
     
     public static void imprimirLista (ArrayList lista)
+    {
+        for(int i = 0; i<lista.size(); i++)
+        {
+            System.out.println("["+i+"]: "+lista.get(i));
+        }
+    }
+    public static void imprimirLista (List lista)
     {
         for(int i = 0; i<lista.size(); i++)
         {
