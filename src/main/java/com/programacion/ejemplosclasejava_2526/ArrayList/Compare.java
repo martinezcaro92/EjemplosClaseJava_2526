@@ -5,6 +5,9 @@
 package com.programacion.ejemplosclasejava_2526.ArrayList;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
 
 /**
  *
@@ -26,7 +29,7 @@ public class Compare {
     static ArrayList<Integer> listaEnteros = new ArrayList<Integer>();
     static ArrayList<String> listaCadenas = new ArrayList<String>();
     ArrayList<Boolean> listaBooleanos = new ArrayList<Boolean>();
-    ArrayList<Persona> listaPersonas = new ArrayList<Persona>();
+    static ArrayList<Persona> listaPersonas = new ArrayList<Persona>();
     
     public static void main(String[] args) {
      
@@ -59,6 +62,19 @@ public class Compare {
         listaEnteros.add(5);
         listaEnteros.add(1);
         listaEnteros.add(7);
+        
+        
+        /*Se inicializa una listaPersonas */
+        listaPersonas.add(new Persona("Diego", "Lopez", "1111111A"));
+        listaPersonas.add(new Persona("Francisco", "Guerrero", "22222222B"));
+        listaPersonas.add(new Persona("Francisco", "Mulero", "333333333C"));
+        listaPersonas.add(new Persona("Nerea", "Sanchez", "444444444D"));
+        listaPersonas.add(new Persona("Eduardo", "Reverte", "55555555E"));
+        listaPersonas.add(new Persona("Miguel", "Re", "666666666F"));
+        listaPersonas.add(new Persona("Antonio David", "Mulero", "777777777G"));
+        listaPersonas.add(new Persona("Adrian", "Rosel", "88888888H"));
+        listaPersonas.add(new Persona("Josue", "Mollo", "999999999I"));
+        listaPersonas.add(new Persona("Javier", "Padilla", "000000000J"));
         
         //Para saber la longitud de la lista, hacemos uso de lista.size() -- equivalente a array.length
         System.out.println("La longitud de la lista listaCadenas es: " + listaCadenas.size());
@@ -113,9 +129,56 @@ public class Compare {
         ArrayList<Integer> copiaEnteros = new ArrayList<Integer>(listaEnteros);
         
         // REVISAR clone
-        // REVISAR sort
+        ArrayList<Integer> listaEnterosClonada = (ArrayList<Integer>) listaEnteros.clone();
+        // Para poder hacer uso del método clone() se necesita hacer un casting explicito
+        // Sería lo mismo que hacer listaEnterosClonada = listaEnteros; // ya que apunta a
+        // las mismas posiciones de memoria en listaEnterosClonada que listaEnteros
+        
+        // REVISAR sort()
+        System.out.println("****** Funcionamiento sort() - listaEnteros ordenada a continuación ******");
+        System.out.println("listaEnteros desordenada a continuación ******");
+        imprimirLista(listaEnteros);
+        
+        System.out.println("listaEnteros ordenada ASC a continuación ******");
+        // A continuación se muestran tres métodos para ordenar de forma ascendente
+        //listaEnteros.sort(Integer::compareTo); // ordena por orden ascendente la lista
+        //Collection.sort(listaEnteros);
+        listaEnteros.sort(null);
+        imprimirLista(listaEnteros);
+        
+        
+        System.out.println("listaEnteros ordenada DESC a continuación ******");
+        listaEnteros.sort(Comparator.reverseOrder()); // ordena por orden ascendente la lista
+        //Collections.sort(listaEnteros, Collection.reverseOrder());
+        imprimirLista(listaEnteros);
+        
+        System.out.println("****** Funcionamiento sort() - listaPersonas original ******");
+        imprimirLista(listaPersonas);
+        
+        System.out.println("****** Funcionamiento sort() - listaPersonas ordenada por Apellido ASC ******");
+        listaPersonas.sort(Comparator.comparing(Persona::getApellido));
+        imprimirLista(listaPersonas);
+        
+        System.out.println("****** Funcionamiento sort() - listaPersonas ordenada por Apellido DESC ******");
+        listaPersonas.sort(Comparator.comparing(Persona::getApellido).reversed());
+        imprimirLista(listaPersonas);
+        
+        System.out.println("****** Funcionamiento sort() - listaPersonas ordenada por Nombre ******");
+        listaPersonas.sort(Comparator.comparing(Persona::getNombre));
+        imprimirLista(listaPersonas);
+        
+        System.out.println("****** Funcionamiento sort() - listaPersonas ordenada por Apellido y después Nombre ******");
+        listaPersonas.sort(Comparator.comparing(Persona::getApellido).thenComparing(Persona::getNombre));
+        imprimirLista(listaPersonas);
+        
+        
         // REVISAR arrayCadenas = listaCadenas.toArray();
+        arrayCadenas = listaCadenas.toArray(new String[0]);
+        // No tiene mucho sentido ya que a nivel práctico es mejor trabajar con ArrayList
+        
+        
         // REVISAR ArrayList<String> listaInvertida = listaCadenas.reversed();
+        // Esto ha sido solventado con el método .sort() aplicando el método .reversed()
         
         System.out.println("toString: " + listaEnteros.toString());
         
