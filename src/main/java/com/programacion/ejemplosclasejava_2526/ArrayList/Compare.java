@@ -211,8 +211,10 @@ public class Compare {
         
         System.out.println("Imprimir solo los apellidos de las Personas");
         listaPersonas.stream()
-                     .map(Persona::getApellido) // De cada elemento (en este caso Persona), mapea sólo el apellido
-                     .forEach(System.out::println); // De cada elemento obtenido, imprime lo que se obtiene
+                     .map(p->p.getApellido()) // Esta línea es equivalente a la inferior
+                    //.map(Persona::getApellido) // De cada elemento (en este caso Persona), mapea sólo el apellido
+                     .forEach(ap -> System.out.println(ap));
+                     //.forEach(System.out::println); // De cada elemento obtenido, imprime lo que se obtiene
         System.out.println("Pasar a una lista a parte los apellidos de las personas");
         
         // Genera una lista a partir de los apellidos de listaPersonas
