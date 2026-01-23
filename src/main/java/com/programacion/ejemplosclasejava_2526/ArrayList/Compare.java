@@ -65,9 +65,11 @@ public class Compare {
         listaEnteros.add(7);
         
         // Otra forma de crear ArrayList en una sóla línea
+        System.out.println("Imprimir ArrayList creados en una linea");
         ArrayList<String> listaCadenas2 = new ArrayList<String>(List.of("Pepe", "Ana", "Alfonso", "Francisca", "Pepa", "Rosa", "Paco"));
+        imprimirLista(listaCadenas2);
         ArrayList<Integer> listaEnteros2 = new ArrayList<Integer>(List.of(1,2,3,4,5,6,7,8,9,0));
-        
+        imprimirLista(listaEnteros2);
         
         /*Se inicializa una listaPersonas */
         listaPersonas.add(new Persona("Diego", "Lopez", "1111111A"));
@@ -151,15 +153,16 @@ public class Compare {
         System.out.println("listaEnteros ordenada ASC a continuación ******");
         // A continuación se muestran tres métodos para ordenar de forma ascendente
         //listaEnteros.sort(Integer::compareTo); // ordena por orden ascendente la lista
-        //Collection.sort(listaEnteros);
         listaEnteros.sort(null);
+        listaCadenas.sort(null);
         imprimirLista(listaEnteros);
-        
+        imprimirLista(listaCadenas);
         
         System.out.println("listaEnteros ordenada DESC a continuación ******");
         listaEnteros.sort(Comparator.reverseOrder()); // ordena por orden ascendente la lista
-        //Collections.sort(listaEnteros, Collection.reverseOrder());
+        listaCadenas.sort(Comparator.reverseOrder());
         imprimirLista(listaEnteros);
+        imprimirLista(listaCadenas);
         
         System.out.println("****** Funcionamiento sort() - listaPersonas original ******");
         imprimirLista(listaPersonas);
@@ -185,7 +188,6 @@ public class Compare {
         arrayCadenas = listaCadenas.toArray(new String[0]);
         // No tiene mucho sentido ya que a nivel práctico es mejor trabajar con ArrayList
         
-        
         // REVISAR ArrayList<String> listaInvertida = listaCadenas.reversed();
         // Esto ha sido solventado con el método .sort() aplicando el método .reversed()
         
@@ -198,17 +200,22 @@ public class Compare {
         
         System.out.println("");
         System.out.println("Recorrer listas sin necesidad de bucles (forEach)");
+        // forEach permite recorrer todas las posiciones haciendo uso del operador lambda (->)
         listaPersonas.forEach(p -> System.out.println(p.toString()));
+        
         System.out.println("");
         System.out.println("Imprimir solo los objetos que cumplen con un criterio (apellido=Mulero)");
         listaPersonas.stream() // El método stream() permite recorrer dinámicamente la lista sin bucles
-                     .filter(p->p.getApellido().equals("Mulero"))
-                     .forEach(System.out::println);
+                     .filter(p->p.getApellido().equals("Mulero")) // Permite clasificar sólo los que tienen el apellido Mulero
+                     .forEach(System.out::println); // Cada entrada que cumple con el criterio la imprime
+        
         System.out.println("Imprimir solo los apellidos de las Personas");
         listaPersonas.stream()
                      .map(Persona::getApellido) // De cada elemento (en este caso Persona), mapea sólo el apellido
                      .forEach(System.out::println); // De cada elemento obtenido, imprime lo que se obtiene
         System.out.println("Pasar a una lista a parte los apellidos de las personas");
+        
+        // Genera una lista a partir de los apellidos de listaPersonas
         List<String> apellidos = listaPersonas.stream()
                                               .map(Persona::getApellido)
                                               .toList();
