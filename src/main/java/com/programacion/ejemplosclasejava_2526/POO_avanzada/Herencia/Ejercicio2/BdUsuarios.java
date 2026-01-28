@@ -14,26 +14,59 @@ public class BdUsuarios {
     /**
      * @param args the command line arguments
      */
-    ArrayList<UsuNormal> bd = new ArrayList<UsuNormal>();
+    private static ArrayList<UsuNormal> bd = new ArrayList<UsuNormal>();
     
-    public void anadirUsuario(UsuNormal usuario)
+    public static void anadirUsuario(UsuNormal usuario)
     {
-        
+        bd.add(usuario);
     }
     
-    public ArrayList<UsuNormal> obtenerBD()
+    public static ArrayList<UsuNormal> obtenerBD()
     {
-        
+        return bd;
     }
     
-    public UsuNormal obtenerUsuario (String )
+    public static UsuNormal obtenerUsuario (String usuario)
     {
-        
+        for (UsuNormal user: bd)
+        {
+            if(user.getNombre().equals(usuario))
+            {
+                return user;
+            }
+        }
+        return null;
     }
     
-    public boolean verificarLogin (String, String)
+    public static boolean verificarLogin (String usuario, String contrasena)
     {
+        //Diferentes métodos de resolverlo, de más sencilla a más compleja
+//        for (int i = 0; i<bd.size();i++)
+//        {
+//            if(bd.get(i).getNombre().equals(usuario) && bd.get(i).getPassword().equals(contrasena))
+//            {
+//                return true;
+//            }
+//        }
+//        return false;
         
+        //2º forma utilizando un for "corto" 
+        for (UsuNormal user: bd)
+        {
+            if(user.getNombre().equals(usuario) && user.getPassword().equals(contrasena))
+            {
+                return true;
+            }
+        }
+        return false;
+        
+        //3º forma utilizando stream() y filter() -- Hacer para prácticar en casa
+        //bd.stream().filter();
     }
+    
+//    public static void main (String [] args)
+//    {
+//        
+//    }
     
 }
