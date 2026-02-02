@@ -23,6 +23,7 @@ com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionB\Ej4b.c
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionA\Ej3a.class
 com\programacion\ejemplosclasejava_2526\POO\Vehiculo.class
 com\programacion\ejemplosclasejava_2526\UT2\PorcentajeEstudiantes.class
+com\programacion\ejemplosclasejava_2526\ArrayList\Ejercicio1Coleccion\Persona.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionB\Ej3b.class
 com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion1T\UT3Ej3.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploInterfaz\IJugador.class
@@ -38,6 +39,7 @@ com\programacion\ejemplosclasejava_2526\Metodos\CalculadoraNotaMediaConMetodosAv
 com\programacion\ejemplosclasejava_2526\CadenasDeCaracteres\Ej1.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploPoligono\Triangulo.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploPersona\Estudiante.class
+com\programacion\ejemplosclasejava_2526\ArrayList\Ejercicio1Coleccion\Ejercicio1.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\HerenciaEjercicio1\Empleado.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251113\Ej3.class
 com\programacion\ejemplosclasejava_2526\Metodos\CalculadoraBasicaConMetodos.class
@@ -74,6 +76,7 @@ com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionC\Ej2a.c
 com\programacion\ejemplosclasejava_2526\Metodos\CalculadoraNotaMediaConMetodos.class
 com\programacion\ejemplosclasejava_2526\UT2\Media10EstudiantesBasica.class
 com\programacion\ejemplosclasejava_2526\POO\Libro.class
+com\programacion\ejemplosclasejava_2526\POO_avanzada\Herencia\Ejercicio2\Ejercicio02_menu.class
 com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion1T\ReproductorMusica.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251113\Ej1.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploPersona\Empleado.class
@@ -94,7 +97,10 @@ com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploPersona\Persona.clas
 com\programacion\ejemplosclasejava_2526\Repasos\PrevUT3\SumaCondicionada.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251113\Ej5.class
 com\programacion\ejemplosclasejava_2526\UT2\EjemploIfElse.class
+com\programacion\ejemplosclasejava_2526\POO_avanzada\Herencia\Ejercicio2\UsuNormal.class
+com\programacion\ejemplosclasejava_2526\POO_avanzada\Herencia\Ejercicio2\UsuAdmin.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploPoligono\Regulares.class
+com\programacion\ejemplosclasejava_2526\POO_avanzada\Herencia\Ejercicio2\BdUsuarios.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploInterfaz\Jugador.class
 com\programacion\ejemplosclasejava_2526\Arrays\Multidimensionales.class
 com\programacion\ejemplosclasejava_2526\Basicos\Bucles\DosBuclesAnidados.class

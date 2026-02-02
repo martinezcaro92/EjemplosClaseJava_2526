@@ -2,29 +2,31 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.programacion.ejemplosclasejava_2526.POO_avanzada.EjemploPersona;
+package com.programacion.ejemplosclasejava_2526.ArrayList.Ejercicio1Coleccion;
+
 
 /**
  *
  * @author josem
  */
-public class Persona implements Comparable<Persona>{
+public class Persona {
 //    private String nombre;
 //    private String apellido;
 //    private String dni;
 
 // Se puede definir una variable por línea (con todas sus características) o
 // todas en la misma línea (compartiendo características)    
-    private String nombre, apellido, dni;
+    private String nombre, dni;
+    private int edad;
     
     
     // Se define un constructor vacío
     public Persona (){}
     
     // Se define un constructor completo
-    public Persona (String nombre, String apellido, String dni){
+    public Persona (String dni, String nombre, int edad){
         this.nombre = nombre;
-        this.apellido = apellido;
+        this.edad = edad;
         this.dni = dni;
     }
     
@@ -40,13 +42,13 @@ public class Persona implements Comparable<Persona>{
         // Aquí si es obligatorio el uso de this porque el nombre del atributo 
         // global es igual al nombre del atributo pasado como argumento
     }
-    public String getApellido ()
+    public int getEdad ()
     {
-        return this.apellido;
+        return this.edad;
     }
-    public void setApellido (String apellido)
+    public void setEdad(int edad)
     {
-        this.apellido = apellido;
+        this.edad = edad;
     }
     public String getDni ()
     {
@@ -57,21 +59,13 @@ public class Persona implements Comparable<Persona>{
         this.dni = dni;
     }
     
-    public String getNombreCompleto ()
-    {
-        // Este método queda implementado y posteriormente será sobreescrito
-        return nombre + " " + apellido;
-    }
     
     public String toString()
     {
-        return "nombre=" + this.nombre + ", apellido=" + apellido + ", dni=" + dni;
+        return "dni=" + this.dni + " - nombre=" + nombre + " - edad=" + edad;
     }
-    @Override
-    public int compareTo(Persona p)
-    {
-        // Esta implementación del compareTo() es sólo para los Strings. Lo que hace
-        // es hacer uso de un método própio del tipo.
-        return nombre.compareTo(p.getNombre());
+    
+    public int compareTo(Persona p){
+        return dni.compareTo(p.getDni());
     }
 }

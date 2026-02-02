@@ -69,4 +69,13 @@ public class Estudiante extends Persona {
         return super.toString() + ", centro="+this.centro + ", curso=" + this.curso
                 + ", nivel=" + this.nivel + ", nre=" + this.nre;
     }
+    
+    public int compareTo(Estudiante e)
+    {
+        //Esta implementación del compareTo reescribe la implementación de la clase 
+        // padre, ordenando los estudiantes de manera ascendente por el número NRE
+        if (nre > e.getNre()) {return +1;}
+        else if (nre < e.getNre()) {return -1;}
+        else {return 0;}
+    }
 }
