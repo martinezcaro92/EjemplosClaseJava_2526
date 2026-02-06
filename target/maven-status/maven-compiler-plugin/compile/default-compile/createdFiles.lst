@@ -41,6 +41,7 @@ com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploPoligono\Triangulo.c
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploPersona\Estudiante.class
 com\programacion\ejemplosclasejava_2526\ArrayList\Ejercicio1Coleccion\Ejercicio1.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\HerenciaEjercicio1\Empleado.class
+com\programacion\ejemplosclasejava_2526\POO\Polimorfismo\Cuadrado.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251113\Ej3.class
 com\programacion\ejemplosclasejava_2526\Metodos\CalculadoraBasicaConMetodos.class
 com\programacion\ejemplosclasejava_2526\POO\Rectangulo.class
@@ -61,6 +62,7 @@ com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251113\Ej4.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploAnimal\Animal.class
 com\programacion\ejemplosclasejava_2526\Repasos\PrevUT3\StringEj13.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploPoligono\Hexagono.class
+com\programacion\ejemplosclasejava_2526\POO\Polimorfismo\Figura.class
 com\programacion\ejemplosclasejava_2526\POO\Bicicleta.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploPoligono\Cuadrado.class
 com\programacion\ejemplosclasejava_2526\Basicos\EstructurasControl\EjemploIfElseAnidados.class
@@ -79,10 +81,12 @@ com\programacion\ejemplosclasejava_2526\POO\Libro.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\Herencia\Ejercicio2\Ejercicio02_menu.class
 com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion1T\ReproductorMusica.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251113\Ej1.class
+com\programacion\ejemplosclasejava_2526\POO\Polimorfismo\Circulo.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploPersona\Empleado.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionA\Ej1a.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251205\TestingPOO.class
 com\programacion\ejemplosclasejava_2526\Arrays\Bidimensionales.class
+com\programacion\ejemplosclasejava_2526\Metodos\Triangulo.class
 com\programacion\ejemplosclasejava_2526\Basicos\Bucles\EjDoWhile.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploPoligono\Poligono.class
 com\programacion\ejemplosclasejava_2526\CadenasDeCaracteres\Strings.class
