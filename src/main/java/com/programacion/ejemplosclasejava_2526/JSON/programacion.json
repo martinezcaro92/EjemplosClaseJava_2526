@@ -1,0 +1,9 @@
+{
+  "nombre":"Programación",
+  "curso": 1,
+  "docente": "Jose Manuel Martínez",
+  "horas_formacion": 210,
+  "numero_estudiantes":30,
+  "centro_educativo": "IES Ramón Arcas Meca",
+  "municipio": "Lorca"
+}

@@ -1,0 +1,9 @@
+{
+  "nombre":"Sistemas Informáticos",
+  "curso": 1,
+  "docente": "Darío Muñoz",
+  "horas_formacion": 190,
+  "numero_estudiantes":29,
+  "centro_educativo": "IES Ramón Arcas Meca",
+  "municipio": "Lorca"
+}

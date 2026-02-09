@@ -1,0 +1,56 @@
+{
+    "nombre": "IES Ramón Arcas Meca",
+    "direccion": "Avenida Juan Carlos I, Lorca (Murcia)",
+    "activo": true,
+    "numero_aulas": 50,
+    "numero_estudiantes": 1200,
+    "numero_docentes": 100,
+    "niveles educativos": [
+        "Educación Secundaria Obligatoria",
+        "Bachillerato",
+        "Formación Profesional"
+    ],
+    "eso": {},
+    "bachillerato": {},
+    "ciclos_formativos": [
+        {
+            "nombre": "Gestión administrativa (GEA)",
+            "horas_totales": 2000,
+            "horas_practicas": 500,
+            "modulos":[]
+        },
+        {
+            "nombre": "Administración y Finanzas (AYF)",
+            "horas_totales": 2000,
+            "horas_practicas": 500,
+            "modulos":[]
+        },
+        {
+            "nombre": "Desarrollo de Aplicaciones Web (DAW)",
+            "horas_totales": 2000,
+            "horas_practicas": 500,
+            "modulos":[
+                {
+                    "nombre":"Sistemas Informáticos",
+                    "curso": 1,
+                    "docente": "Darío Muñoz",
+                    "horas_formacion": 190,
+                    "numero_estudiantes":29
+                },
+                {
+                    "nombre":"Programación",
+                    "curso": 1,
+                    "docente": "Jose Manuel Martínez",
+                    "horas_formacion": 210,
+                    "numero_estudiantes":30
+                },
+                {
+                    "nombre":"Bases de datos",
+                    "curso": 1,
+                    "docente": "Jose Manuel Martínez",
+                    "horas_formacion": 175,
+                    "numero_estudiantes":28
+                }
+            ]
+        }]
+}

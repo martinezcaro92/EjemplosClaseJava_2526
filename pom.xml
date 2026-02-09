@@ -11,4 +11,11 @@
         <exec.mainClass>com.programacion.ejemplosclasejava_xxxxxx.EjemplosClaseJava_XXXXXX</exec.mainClass>
     </properties>
     <name>EjemplosClaseJava_2526</name>
+    <dependencies>
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20230227</version>
+        </dependency>
+    </dependencies>
 </project>

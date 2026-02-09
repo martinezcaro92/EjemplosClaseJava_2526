@@ -1,0 +1,9 @@
+{
+  "nombre":"Bases de datos",
+  "curso": 1,
+  "docente": "Jose Manuel Martínez",
+  "horas_formacion": 175,
+  "numero_estudiantes":28,
+  "centro_educativo": "IES Ramón Arcas Meca",
+  "municipio": "Lorca"
+}
