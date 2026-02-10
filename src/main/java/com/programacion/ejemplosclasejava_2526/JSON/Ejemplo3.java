@@ -45,8 +45,49 @@ public class Ejemplo3 {
         ja_listacontactos.put(jo_contacto);
         
         
-        String datos = ja_listacontactos.toString(1);
-        System.out.println(datos);
+        //String datos = ja_listacontactos.toString(1);
+        //System.out.println(datos);
+        
+        // Ejemplo4 para imprimir el array 
+        //Recorremos el array e imprimimos los objetos que tenga
+//        JSONObject json;
+//        for (int i = 0; i < ja_listacontactos.length(); i++) {
+//            json = ja_listacontactos.getJSONObject(i);
+//            //json = (JSONObject)ja_listacontactos.get(i);
+//            System.out.println("Objeto numero "+i);
+//            System.out.println("------------------");
+//            System.out.println(json.toString(1));
+//            System.out.println("");
+//        }
+        
+        //Imprimos el nombre, la edad y la localidad si tiene
+            String nombre;
+            int edad;
+            JSONObject direccion;
+            JSONObject json;
+            for (int i = 0; i < ja_listacontactos.length(); i++) {
+                json = (JSONObject)ja_listacontactos.get(i);
+                System.out.println("Objeto "+i+":");
+                //Sacamos el nombre usando opt. Hay que controlar nulos
+                nombre = (String)json.opt("nombre");
+                if (nombre!=null) System.out.println(" -nombre:"+nombre);
+                
+                //Sacamos la edad usando has y get. Si estamos seguros de que
+                //tiene edad, no es necesario el has
+                if (json.has("edad")){
+                    System.out.println(" -edad:"+json.getInt("edad"));
+                }
+                //Sacamos la localidad usando otra vez has y get
+                if (json.has("direccion")){
+                    direccion = (JSONObject)json.get("direccion");
+                    if (direccion.has("localidad")){
+                        System.out.println("-localidad:"+direccion.getString("localidad"));
+                    }
+                }
+                else{
+                    System.out.println(" -localidad:NO TIENE");
+                }
+            }
     }
     
 }

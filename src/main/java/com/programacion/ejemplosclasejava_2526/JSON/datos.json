@@ -1,0 +1,11 @@
+{
+    "nombre": "José Manuel",
+    "apellido": "Martínez",
+    "email": ["josemanuel.martinez20@iesramonarcas.es", "josemanuel.martinez20@murciaeduca.es"],
+    "nrp":555411112,
+    "centro_educativo": "IES Ramón Arcas",
+    "estudios_previos": ["Graduado en Ingeniería de Telecomunicaciones", 
+                         "Máster en Formación del Profesorado"
+                        ],
+    "aficiones": ["Ciclismo", "Running", "Chirigotas"]
+}
