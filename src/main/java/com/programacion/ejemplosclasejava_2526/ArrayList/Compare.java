@@ -154,15 +154,15 @@ public class Compare {
         // A continuación se muestran tres métodos para ordenar de forma ascendente
         //listaEnteros.sort(Integer::compareTo); // ordena por orden ascendente la lista
         listaEnteros.sort(null);
-        listaCadenas.sort(null);
+//        listaCadenas.sort(null);
         imprimirLista(listaEnteros);
-        imprimirLista(listaCadenas);
+//        imprimirLista(listaCadenas);
         
         System.out.println("listaEnteros ordenada DESC a continuación ******");
         listaEnteros.sort(Comparator.reverseOrder()); // ordena por orden ascendente la lista
-        listaCadenas.sort(Comparator.reverseOrder());
+//        listaCadenas.sort(Comparator.reverseOrder());
         imprimirLista(listaEnteros);
-        imprimirLista(listaCadenas);
+//        imprimirLista(listaCadenas);
         
         System.out.println("****** Funcionamiento sort() - listaPersonas original ******");
         imprimirLista(listaPersonas);

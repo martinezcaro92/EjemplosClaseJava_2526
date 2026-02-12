@@ -22,6 +22,7 @@ public class EjerciciosArrayList {
         por pantalla usando forEach().*/
         ArrayList<String> nombres = new ArrayList<String>(List.of("Pedro", "Maria", "Eva", "Juan", "Jose"));
         nombres.forEach(System.out::println);
+        nombres.forEach(p -> System.out.println(p));
         
     /*Enunciado 2: Crea un ArrayList de enteros y añade tres elementos en diferentes líneas
         Muestra su tamaño antes y después de cada operación*/
@@ -45,7 +46,12 @@ public class EjerciciosArrayList {
         ArrayList<Double> reales = new ArrayList<Double>(List.of(1.2, 2.5, 3.7, 4.0));
         System.out.println("Pos 2 (antes): " + reales.get(2));
         reales.set(2, 9.9);
+        reales.add(2, 6.7);
         System.out.println("Pos 2 (despues): " + reales.get(2));
+        System.out.println("");
+        reales.forEach(p -> System.out.print(p + ", "));
+        System.out.println("");
+                
         
     /*Enunciado 5: Define una lista de Caracteres (A, B, C, D, E, F) e imprimirlos en una 
         misma línea separados por ", "*/
@@ -76,6 +82,17 @@ public class EjerciciosArrayList {
                             .count();
         System.out.println("La condición se cumple (veces): " + cuenta);
                //.forEach(System.out::println); // en este caso no es un forEach, porque no hay que imprimir (hay que contar)
+               
+               
+               
+               
+         Persona p1 = new Persona("Pepito", "Perez", "11111111A");
+         Persona p2 = new Persona("Pepito", "Martinez", "22222222B");
+         Persona p3 = p1;
+         
+         ArrayList<Persona> pers = new ArrayList<Persona>(List.of(p1,p2));
+         
+         System.out.println(pers.contains(p3));
     }
     
 }
