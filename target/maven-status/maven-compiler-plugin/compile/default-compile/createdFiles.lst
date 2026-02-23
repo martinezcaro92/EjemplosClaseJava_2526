@@ -7,12 +7,15 @@ com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251205\Planta_UML.cla
 com\programacion\ejemplosclasejava_2526\ArrayList\Compare.class
 com\programacion\ejemplosclasejava_2526\Repasos\previoRecuperacion\NotasEstudiantesArray.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\Herencia\Ejercicio5\Ejercicio05.class
+com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20260213_final\SalaAccion.class
 com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion1T\UT2Ej2.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploPoligono\Rectangulo.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\HerenciaEjercicio1\Contable.class
+com\programacion\ejemplosclasejava_2526\Excepciones\EjemploBasico.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251205\Planta.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploAnimal\Perro.class
 com\programacion\ejemplosclasejava_2526\Basicos\EstructurasControl\EjemploIfElse.class
+com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20260213_final\Pelicula.class
 com\programacion\ejemplosclasejava_2526\UT2\Media10EstudiantesArray.class
 com\programacion\ejemplosclasejava_2526\Arrays\Unidimensionales.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionC\Ej3b.class
@@ -33,6 +36,7 @@ com\programacion\ejemplosclasejava_2526\Basicos\EstructurasControl\EjSwitchCase.
 com\programacion\ejemplosclasejava_2526\Repasos\PrevUT3\TresEnRaya.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251113\Ej2.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\HerenciaEjercicio1\Ejercicio1_polimorfismo.class
+com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20260213_final\Persona.class
 com\programacion\ejemplosclasejava_2526\ArrayList\Clase.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\Herencia\Ejercicio5\Camion.class
 com\programacion\ejemplosclasejava_2526\Repasos\PrevUT3\StringEj14.class
@@ -41,6 +45,7 @@ com\programacion\ejemplosclasejava_2526\Basicos\Bucles\EjWhile.class
 com\programacion\ejemplosclasejava_2526\UT2\MinMaxArray.class
 com\programacion\ejemplosclasejava_2526\Metodos\CalculadoraNotaMediaConMetodosAvanzada.class
 com\programacion\ejemplosclasejava_2526\CadenasDeCaracteres\Ej1.class
+com\programacion\ejemplosclasejava_2526\Excepciones\Finalmente.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploPoligono\Triangulo.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploPersona\Estudiante.class
 com\programacion\ejemplosclasejava_2526\ArrayList\Ejercicio1Coleccion\Ejercicio1.class
@@ -52,13 +57,16 @@ com\programacion\ejemplosclasejava_2526\POO\Rectangulo.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionC\Ej4b.class
 com\programacion\ejemplosclasejava_2526\Metodos\CodigoOptimizadoMetodos.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploInterfaz\IPersona.class
+com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20260213_final\ProgramaPrincipal.class
 com\programacion\ejemplosclasejava_2526\POO\PruebaLibro.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionB\Ej3a.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploPoligono\Pentagono.class
 com\programacion\ejemplosclasejava_2526\EjemplosClaseJava_2526.class
 com\programacion\ejemplosclasejava_2526\POO\EquipoDeportivo.class
+com\programacion\ejemplosclasejava_2526\Excepciones\NullPointerExample.class
 com\programacion\ejemplosclasejava_2526\POO\Persona.class
 com\programacion\ejemplosclasejava_2526\POO\Deportes.class
+com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20260213_final\SalaInfantil.class
 com\programacion\ejemplosclasejava_2526\Basicos\EstructurasControl\Ej4ViajeEstudios.class
 com\programacion\ejemplosclasejava_2526\POO\TestingPoo.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploAnimal\TestingAnimal.class
@@ -77,6 +85,7 @@ com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionA\Ej2b.c
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionA\Ej3b.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionA\Ej4b.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploPersona\TestingPersona.class
+com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20260213_final\SalaCine.class
 com\programacion\ejemplosclasejava_2526\Repasos\PrevUT3\DivisoresNumeroConMetodosArray.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionC\Ej2a.class
 com\programacion\ejemplosclasejava_2526\Metodos\CalculadoraNotaMediaConMetodos.class
@@ -119,6 +128,8 @@ com\programacion\ejemplosclasejava_2526\Basicos\Bucles\DosBuclesAnidados.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionB\Ej1a.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploPersona\Docente.class
 com\programacion\ejemplosclasejava_2526\ArrayList\EjerciciosArrayList.class
+com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20260213_final\Cine.class
+com\programacion\ejemplosclasejava_2526\Excepciones\MultipleCatch.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionC\Ej2b.class
 com\programacion\ejemplosclasejava_2526\UT2\RecorridoArray.class
 com\programacion\ejemplosclasejava_2526\Basicos\EstructurasControl\EjemploIf.class
