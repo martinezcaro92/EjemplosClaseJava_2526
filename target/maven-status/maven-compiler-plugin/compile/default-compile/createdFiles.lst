@@ -10,6 +10,7 @@ com\programacion\ejemplosclasejava_2526\POO_avanzada\Herencia\Ejercicio5\Ejercic
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20260213_final\SalaAccion.class
 com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion1T\UT2Ej2.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploPoligono\Rectangulo.class
+com\programacion\ejemplosclasejava_2526\Excepciones\Propaga.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\HerenciaEjercicio1\Contable.class
 com\programacion\ejemplosclasejava_2526\Excepciones\ArithmeticExample.class
 com\programacion\ejemplosclasejava_2526\Excepciones\EjemploBasico.class
@@ -21,6 +22,7 @@ com\programacion\ejemplosclasejava_2526\UT2\Media10EstudiantesArray.class
 com\programacion\ejemplosclasejava_2526\Arrays\Unidimensionales.class
 com\programacion\ejemplosclasejava_2526\Excepciones\ArrayIndexOutOfBoundsExample.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionC\Ej3b.class
+com\programacion\ejemplosclasejava_2526\Excepciones\NumberRangeException.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251205\Videojuegos.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionC\Ej1b.class
 com\programacion\ejemplosclasejava_2526\Repasos\PrevUT3\StringEj15.class
@@ -42,6 +44,7 @@ com\programacion\ejemplosclasejava_2526\POO_avanzada\HerenciaEjercicio1\Ejercici
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20260213_final\Persona.class
 com\programacion\ejemplosclasejava_2526\ArrayList\Clase.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\Herencia\Ejercicio5\Camion.class
+com\programacion\ejemplosclasejava_2526\Excepciones\EjemploAnidado.class
 com\programacion\ejemplosclasejava_2526\Repasos\PrevUT3\StringEj14.class
 com\programacion\ejemplosclasejava_2526\Repasos\previoRecuperacion\TablasMultiplicar.class
 com\programacion\ejemplosclasejava_2526\Basicos\Bucles\EjWhile.class
@@ -71,12 +74,14 @@ com\programacion\ejemplosclasejava_2526\POO\Persona.class
 com\programacion\ejemplosclasejava_2526\POO\Deportes.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20260213_final\SalaInfantil.class
 com\programacion\ejemplosclasejava_2526\Basicos\EstructurasControl\Ej4ViajeEstudios.class
+com\programacion\ejemplosclasejava_2526\Excepciones\TestRango.class
 com\programacion\ejemplosclasejava_2526\POO\TestingPoo.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploAnimal\TestingAnimal.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251113\Ej4.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploAnimal\Animal.class
 com\programacion\ejemplosclasejava_2526\Repasos\PrevUT3\StringEj13.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploPoligono\Hexagono.class
+com\programacion\ejemplosclasejava_2526\Excepciones\Empleado.class
 com\programacion\ejemplosclasejava_2526\POO\Polimorfismo\Figura.class
 com\programacion\ejemplosclasejava_2526\POO\Bicicleta.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploPoligono\Cuadrado.class
@@ -119,6 +124,7 @@ com\programacion\ejemplosclasejava_2526\POO_avanzada\HerenciaEjercicio1\Ejercici
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploPersona\Persona.class
 com\programacion\ejemplosclasejava_2526\Repasos\PrevUT3\SumaCondicionada.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251113\Ej5.class
+com\programacion\ejemplosclasejava_2526\Excepciones\Empleado$SueldoIncorrecto.class
 com\programacion\ejemplosclasejava_2526\UT2\EjemploIfElse.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\Herencia\Ejercicio2\UsuNormal.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\Herencia\Ejercicio2\UsuAdmin.class
