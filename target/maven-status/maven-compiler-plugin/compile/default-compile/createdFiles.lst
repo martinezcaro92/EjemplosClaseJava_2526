@@ -118,6 +118,7 @@ com\programacion\ejemplosclasejava_2526\Basicos\Bucles\EjDoWhile.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploPoligono\Poligono.class
 com\programacion\ejemplosclasejava_2526\CadenasDeCaracteres\Strings.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionB\Ej1b.class
+com\programacion\ejemplosclasejava_2526\Excepciones\EjercicioValidadorUsuarios\Usuario.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploAnimal\Gato.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionB\Ej2b.class
 com\programacion\ejemplosclasejava_2526\Metodos\CodigoEspaguetti.class
@@ -145,4 +146,5 @@ com\programacion\ejemplosclasejava_2526\Excepciones\MultipleCatch.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionC\Ej2b.class
 com\programacion\ejemplosclasejava_2526\UT2\RecorridoArray.class
 com\programacion\ejemplosclasejava_2526\Basicos\EstructurasControl\EjemploIf.class
+com\programacion\ejemplosclasejava_2526\Excepciones\EjercicioValidadorUsuarios\RegistroUsuariosApp.class
 com\programacion\ejemplosclasejava_2526\POO\Auto.class
