@@ -24,7 +24,8 @@ public class RegistroUsuariosApp {
             System.out.println("Escoga una opcion del siguiente menu: ");
             System.out.println("   1. Registrar usuario");
             System.out.println("   2. Mostrar usuario por indice");
-            System.out.println("   3. Salir");
+            System.out.println("   3. Mostrar todos los usuarios");
+            System.out.println("   4. Salir");
             System.out.print("Seleccione opcion: ");
             opcion = scan.nextInt();
             
@@ -37,8 +38,10 @@ public class RegistroUsuariosApp {
                     case 2:
                         mostrarUsuario();
                         break;
-
                     case 3:
+                        mostrarTodosUsuarios();
+                        break;
+                    case 4:
                         System.out.println("Hasta luego!");
                         break;
                     default:
@@ -91,5 +94,16 @@ public class RegistroUsuariosApp {
         System.out.println("Imprimiendo el usuario con indice: " +indice);
         Usuario u = listaUsuarios.get(indice);
         System.out.println(u.toString());
+    }
+    
+    public static void mostrarTodosUsuarios()
+    {
+        if (listaUsuarios.isEmpty()) throw new NullPointerException("No hay usuarios definidos por el momento");
+        listaUsuarios.forEach(System.out::println);
+        //listaUsuarios.forEach(p-> System.out.println(p.toString()));
+//        for (Usuario u : listaUsuarios)
+//        {
+//            System.out.println(u.toString());
+//        }
     }
 }
