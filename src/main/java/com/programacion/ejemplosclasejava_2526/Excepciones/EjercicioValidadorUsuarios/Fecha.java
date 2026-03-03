@@ -29,5 +29,5 @@ public class Fecha {
     // en meses con otra fecha pasada por argumento
     
     // Generar un método que a partir de una Fecha establezca la diferencia de tiempo
-    // en anños con otra fecha pasada por argumento
+    // en años con otra fecha pasada por argumento
 }
