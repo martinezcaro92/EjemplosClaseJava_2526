@@ -98,6 +98,7 @@ public class RegistroUsuariosApp {
     
     public static void mostrarTodosUsuarios()
     {
+        
         if (listaUsuarios.isEmpty()) throw new NullPointerException("No hay usuarios definidos por el momento");
         listaUsuarios.forEach(System.out::println);
         //listaUsuarios.forEach(p-> System.out.println(p.toString()));
