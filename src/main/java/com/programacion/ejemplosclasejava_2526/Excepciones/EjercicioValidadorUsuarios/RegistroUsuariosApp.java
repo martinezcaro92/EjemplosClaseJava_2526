@@ -28,7 +28,9 @@ public class RegistroUsuariosApp {
             System.out.println("   2. Registrar empleado");
             System.out.println("   3. Mostrar usuario por indice");
             System.out.println("   4. Mostrar todos los usuarios");
-            System.out.println("   5. Salir");
+            System.out.println("   5. Mostrar sólo Usuarios");
+            System.out.println("   6. Mostrar sólo Empleados");
+            System.out.println("   7. Salir");
             System.out.print("Seleccione opcion: ");
             opcion = scan.nextInt();
             
@@ -48,6 +50,12 @@ public class RegistroUsuariosApp {
                         mostrarTodosUsuarios();
                         break;
                     case 5:
+                        mostrarSoloUsuarios();
+                        break;
+                    case 6:
+                        mostrarSoloEmpleados();
+                        break;
+                    case 7:
                         System.out.println("Hasta luego!");
                         break;
                     default:
@@ -71,7 +79,7 @@ public class RegistroUsuariosApp {
             } finally {
                 System.out.println("Volviendo al menu...");
             }
-        } while (opcion !=5);
+        } while (opcion !=7);
     }
     
     public static void registrarUsuario()
@@ -93,7 +101,7 @@ public class RegistroUsuariosApp {
         email = scan.nextLine();
     }
     
-    public static void mostrarUsuario()
+    public static void mostrarUsuario() throws ArrayIndexOutOfBoundsException, NullPointerException
     {
         Scanner scan = new Scanner (System.in);
         System.out.print("Introduzca el indice a consultar: ");
@@ -106,7 +114,7 @@ public class RegistroUsuariosApp {
         System.out.println(u.toString());
     }
     
-    public static void mostrarTodosUsuarios()
+    public static void mostrarTodosUsuarios() throws NullPointerException
     {
         
         if (listaUsuarios.isEmpty()) throw new NullPointerException("No hay usuarios definidos por el momento");
@@ -142,11 +150,43 @@ public class RegistroUsuariosApp {
     
     // Definir un método que imprima sólo los Usuarios (excluir los Empleados). 
     // Debe modificar también el switch-case si fuese necesario
-    
+    public static void mostrarSoloUsuarios() throws NullPointerException
+    {
+        int count = 0;
+        //for (Usuario u : listaUsuarios)
+        if (listaUsuarios.size()==0) throw new NullPointerException("La variable listaUsuarios está vacia");
+        //if(listaUsuarios.isEmpty()) throw new NullPointerException("La variable listaUsuarios está vacia");
+        for (int i = 0; i<listaUsuarios.size();i++)
+        {
+            if (!(listaUsuarios.get(i) instanceof Empleado))
+            {
+                Usuario u = (Usuario) listaUsuarios.get(i);
+                System.out.println(u.toString());
+                count++;
+            }
+        }
+        if(count==0) throw new NullPointerException("No existe ningún Usuario en el sistema");
+    }
     
     // Definir un método que imprima sólo los Empleados definidos. 
     // Debe modificar también el switch-case si fuese necesario
-    
+    public static void mostrarSoloEmpleados() throws NullPointerException
+    {
+        int count = 0;
+        
+        //if (listaUsuarios.size()==0) throw new NullPointerException("La variable listaUsuarios está vacia");
+        if(listaUsuarios.isEmpty()) throw new NullPointerException("La variable listaUsuarios está vacia");
+        for (Usuario u : listaUsuarios)
+        {
+            if (u instanceof Empleado)
+            {
+                Empleado e = (Empleado) u;
+                System.out.println(e.toString());
+                count++;
+            }
+        }
+        if(count==0) throw new NullPointerException("No existe ningún Empleado en el sistema");
+    }
     
     
 }
