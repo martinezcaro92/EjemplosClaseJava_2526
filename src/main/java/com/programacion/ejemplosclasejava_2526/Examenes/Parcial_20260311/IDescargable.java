@@ -8,6 +8,6 @@ package com.programacion.ejemplosclasejava_2526.Examenes.Parcial_20260311;
  *
  * @author josem
  */
-public interface IDescargable {
-    
+public interface IDescargable{
+    public void descargar();
 }

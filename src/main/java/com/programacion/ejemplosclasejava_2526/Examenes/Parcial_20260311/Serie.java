@@ -55,7 +55,7 @@ public class Serie extends Contenido implements IValorable{
                 ", valoracionMedia=" + obtenerValoracionMedia()+'}';
     }
     
-    public int calcularDuracion(ArrayList<Episodio> episodios)
+    public static int calcularDuracion(ArrayList<Episodio> episodios)
     {
         if (episodios.isEmpty() || episodios == null) throw new IllegalArgumentException("La serie no tiene capitulos");
         int duracionTotal = 0;
