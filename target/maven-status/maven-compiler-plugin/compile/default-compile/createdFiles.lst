@@ -40,6 +40,7 @@ com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionB\Ej4b.c
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionA\Ej3a.class
 com\programacion\ejemplosclasejava_2526\POO\Vehiculo.class
 com\programacion\ejemplosclasejava_2526\UT2\PorcentajeEstudiantes.class
+com\programacion\ejemplosclasejava_2526\IO\LecturaCalificaciones.class
 com\programacion\ejemplosclasejava_2526\ArrayList\Ejercicio1Coleccion\Persona.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionB\Ej3b.class
 com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion1T\UT3Ej3.class
@@ -70,6 +71,7 @@ com\programacion\ejemplosclasejava_2526\POO_avanzada\HerenciaEjercicio1\Empleado
 com\programacion\ejemplosclasejava_2526\POO\Polimorfismo\Cuadrado.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251113\Ej3.class
 com\programacion\ejemplosclasejava_2526\Excepciones\Curso.class
+com\programacion\ejemplosclasejava_2526\IO\PruebaPrintf.class
 com\programacion\ejemplosclasejava_2526\Metodos\CalculadoraBasicaConMetodos.class
 com\programacion\ejemplosclasejava_2526\POO\Rectangulo.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionC\Ej4b.class
@@ -106,6 +108,7 @@ com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionA\Ej1b.c
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionA\Ej2b.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionA\Ej3b.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionA\Ej4b.class
+com\programacion\ejemplosclasejava_2526\IO\LecturaCalificaciones_v2.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploPersona\TestingPersona.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20260213_final\SalaCine.class
 com\programacion\ejemplosclasejava_2526\Repasos\PrevUT3\DivisoresNumeroConMetodosArray.class

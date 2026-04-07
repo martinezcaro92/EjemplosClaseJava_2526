@@ -1,2 +1,4 @@
 Pepito Perez: 7
 Manolito Fernandez: 6
+Antonia Martinez: 10
+Federica Osborne: 3.14159
