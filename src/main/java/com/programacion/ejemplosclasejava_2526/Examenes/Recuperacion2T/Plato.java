@@ -10,9 +10,9 @@ package com.programacion.ejemplosclasejava_2526.Examenes.Recuperacion2T;
  */
 public class Plato {
     private String nombre;
-    private int precio;
+    private double precio;
 
-    public Plato(String nombre, int precio) {
+    public Plato(String nombre, double precio) {
         if (nombre==null || nombre.trim().isEmpty()) throw new DatosNoValidosException("El nombre del plato no puede estar vacío");
         if (precio <0) throw new DatosNoValidosException("El precio del plato no puede ser menor que 0");
         this.nombre = nombre;
@@ -30,7 +30,7 @@ public class Plato {
         this.nombre = nombre;
     }
 
-    public int getPrecio() {
+    public double getPrecio() {
         return precio;
     }
 
