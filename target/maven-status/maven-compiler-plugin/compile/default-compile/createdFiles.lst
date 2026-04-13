@@ -5,11 +5,14 @@ com\programacion\ejemplosclasejava_2526\UT2\NotaMediaClase.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\Herencia\Ejercicio5\Turismo.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251205\Rectangulo.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251205\Planta_UML.class
+com\programacion\ejemplosclasejava_2526\IO\LecturaPorTipo_v2.class
 com\programacion\ejemplosclasejava_2526\ArrayList\Compare.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20260311\IDescargable.class
 com\programacion\ejemplosclasejava_2526\Repasos\previoRecuperacion\NotasEstudiantesArray.class
 com\programacion\ejemplosclasejava_2526\IO\LecturaPorTipo.class
+com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion2T\Mesa.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\Herencia\Ejercicio5\Ejercicio05.class
+com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion2T\IPagable.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20260213_final\SalaAccion.class
 com\programacion\ejemplosclasejava_2526\Excepciones\EjercicioTipoExamen\Recurso.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20260311\IValorable.class
@@ -54,6 +57,8 @@ com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251113\Ej2.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\HerenciaEjercicio1\Ejercicio1_polimorfismo.class
 com\programacion\ejemplosclasejava_2526\IO\TestFileWriter.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20260213_final\Persona.class
+com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion2T\DatosNoValidosException.class
+com\programacion\ejemplosclasejava_2526\IO\LecturaPorTipo_v3.class
 com\programacion\ejemplosclasejava_2526\ArrayList\Clase.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\Herencia\Ejercicio5\Camion.class
 com\programacion\ejemplosclasejava_2526\Excepciones\EjemploAnidado.class
@@ -66,7 +71,10 @@ com\programacion\ejemplosclasejava_2526\CadenasDeCaracteres\Ej1.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20260311\Episodio.class
 com\programacion\ejemplosclasejava_2526\Excepciones\Finalmente.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploPoligono\Triangulo.class
+com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion2T\Camarero.class
+com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion2T\Cliente.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploPersona\Estudiante.class
+com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion2T\Restaurante.class
 com\programacion\ejemplosclasejava_2526\ArrayList\Ejercicio1Coleccion\Ejercicio1.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\HerenciaEjercicio1\Empleado.class
 com\programacion\ejemplosclasejava_2526\POO\Polimorfismo\Cuadrado.class
@@ -79,6 +87,7 @@ com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionC\Ej4b.c
 com\programacion\ejemplosclasejava_2526\Metodos\CodigoOptimizadoMetodos.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploInterfaz\IPersona.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20260213_final\ProgramaPrincipal.class
+com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion2T\MesaNoDisponibleException.class
 com\programacion\ejemplosclasejava_2526\Excepciones\EjercicioValidadorUsuarios\Fecha.class
 com\programacion\ejemplosclasejava_2526\POO\PruebaLibro.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionB\Ej3a.class
@@ -112,6 +121,7 @@ com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionA\Ej4b.c
 com\programacion\ejemplosclasejava_2526\IO\LecturaCalificaciones_v2.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploPersona\TestingPersona.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20260213_final\SalaCine.class
+com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion2T\Management.class
 com\programacion\ejemplosclasejava_2526\Repasos\PrevUT3\DivisoresNumeroConMetodosArray.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionC\Ej2a.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20260311\Contenido.class
@@ -135,6 +145,7 @@ com\programacion\ejemplosclasejava_2526\Arrays\Bidimensionales.class
 com\programacion\ejemplosclasejava_2526\Excepciones\EjercicioTipoExamen\Usuario.class
 com\programacion\ejemplosclasejava_2526\Metodos\Triangulo.class
 com\programacion\ejemplosclasejava_2526\Basicos\Bucles\EjDoWhile.class
+com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion2T\IPedible.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploPoligono\Poligono.class
 com\programacion\ejemplosclasejava_2526\CadenasDeCaracteres\Strings.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionB\Ej1b.class
@@ -148,11 +159,13 @@ com\programacion\ejemplosclasejava_2526\Excepciones\EjercicioTipoExamen\Document
 com\programacion\ejemplosclasejava_2526\ArrayList\Persona.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\HerenciaEjercicio1\Ejercicio1.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploPersona\Persona.class
+com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion2T\Persona.class
 com\programacion\ejemplosclasejava_2526\Excepciones\EjercicioTipoExamen\IEvaluable.class
 com\programacion\ejemplosclasejava_2526\Repasos\PrevUT3\SumaCondicionada.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20260311\StreamingTest.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251113\Ej5.class
 com\programacion\ejemplosclasejava_2526\Excepciones\Empleado$SueldoIncorrecto.class
+com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion2T\Plato.class
 com\programacion\ejemplosclasejava_2526\UT2\EjemploIfElse.class
 com\programacion\ejemplosclasejava_2526\Excepciones\EjercicioTipoExamen\FormatoNoValidoException.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\Herencia\Ejercicio2\UsuNormal.class

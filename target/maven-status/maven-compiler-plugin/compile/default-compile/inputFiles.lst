@@ -67,6 +67,17 @@ C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com
 C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion1T\ReproductorMusica.java
 C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion1T\UT2Ej2.java
 C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion1T\UT3Ej3.java
+C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion2T\Camarero.java
+C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion2T\Cliente.java
+C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion2T\DatosNoValidosException.java
+C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion2T\IPagable.java
+C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion2T\IPedible.java
+C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion2T\Management.java
+C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion2T\Mesa.java
+C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion2T\MesaNoDisponibleException.java
+C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion2T\Persona.java
+C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion2T\Plato.java
+C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion2T\Restaurante.java
 C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\Excepciones\Alumno.java
 C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\Excepciones\ArithmeticExample.java
 C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\Excepciones\ArrayIndexOutOfBoundsExample.java
@@ -96,6 +107,8 @@ C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com
 C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\IO\LecturaCalificaciones.java
 C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\IO\LecturaCalificaciones_v2.java
 C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\IO\LecturaPorTipo.java
+C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\IO\LecturaPorTipo_v2.java
+C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\IO\LecturaPorTipo_v3.java
 C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\IO\PruebaPrintf.java
 C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\IO\PruebaThrowsEscritura.java
 C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\IO\TestFileWriter.java
