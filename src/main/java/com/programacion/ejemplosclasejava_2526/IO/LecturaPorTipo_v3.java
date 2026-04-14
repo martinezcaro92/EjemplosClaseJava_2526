@@ -48,7 +48,7 @@ public class LecturaPorTipo_v3 {
     
     public static void main(String[] args) {
         String path = "src\\main\\java\\com\\programacion\\ejemplosclasejava_2526\\IO\\";
-        String nombreFichero = "fichero_prueba.txt";
+        String nombreFichero = "fichero_prueba_v2.txt";
         
         try {
             muestraContenidoFich(path+nombreFichero);

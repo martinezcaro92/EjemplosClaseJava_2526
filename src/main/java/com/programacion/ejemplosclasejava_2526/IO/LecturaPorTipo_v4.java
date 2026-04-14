@@ -25,13 +25,19 @@ public class LecturaPorTipo_v4 {
             while (in.hasNext()) {
                 // lee primera palabra
                 String palabra = in.next();
-                System.out.println("Palabra:" + palabra);
+                double suma = 0;
+                int contador = 0;
+
                 // lee los números después de la palabra
                 while (in.hasNextDouble()) {
                     // lee un double
                     double d = in.nextDouble();
-                    System.out.println("Número:"+d);
+                    suma += d;
+                    contador++;
                 }
+
+                double media = contador > 0 ? suma / contador : 0;
+                System.out.printf("%s(media): %4.2f%n", palabra, media);
             } // while (in.hasNext())
         } finally {
             if (in != null){
