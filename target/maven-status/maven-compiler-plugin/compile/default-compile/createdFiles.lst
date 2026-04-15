@@ -77,6 +77,7 @@ com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploPersona\Empleado.cla
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionA\Ej1a.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251205\TestingPOO.class
 com\programacion\ejemplosclasejava_2526\Excepciones\EjercicioTipoExamen\Usuario.class
+com\programacion\ejemplosclasejava_2526\IO\binario\LeerProductos.class
 com\programacion\ejemplosclasejava_2526\Basicos\Bucles\EjDoWhile.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploPoligono\Poligono.class
 com\programacion\ejemplosclasejava_2526\CadenasDeCaracteres\Strings.class
@@ -117,6 +118,7 @@ com\programacion\ejemplosclasejava_2526\Excepciones\ArrayIndexOutOfBoundsExample
 com\programacion\ejemplosclasejava_2526\Metodos\Teoria.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionB\Ej4b.class
 com\programacion\ejemplosclasejava_2526\UT2\PorcentajeEstudiantes.class
+com\programacion\ejemplosclasejava_2526\IO\binario\Producto.class
 com\programacion\ejemplosclasejava_2526\ArrayList\Ejercicio1Coleccion\Persona.class
 com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion1T\UT3Ej3.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploInterfaz\IJugador.class
@@ -171,6 +173,7 @@ com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion2T\IPedible.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionB\Ej1b.class
 com\programacion\ejemplosclasejava_2526\Excepciones\EjercicioTipoExamen\RecursoYaEvaluadoException.class
 com\programacion\ejemplosclasejava_2526\Metodos\CodigoEspaguetti.class
+com\programacion\ejemplosclasejava_2526\IO\binario\GuardarProducto.class
 com\programacion\ejemplosclasejava_2526\Excepciones\EjercicioTipoExamen\Documento.class
 com\programacion\ejemplosclasejava_2526\ArrayList\Persona.class
 com\programacion\ejemplosclasejava_2526\IO\binario\EscrituraDatosPrimitivos.class
