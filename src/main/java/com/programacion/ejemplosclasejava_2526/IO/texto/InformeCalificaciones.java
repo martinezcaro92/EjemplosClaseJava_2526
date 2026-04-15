@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.programacion.ejemplosclasejava_2526.IO;
+package com.programacion.ejemplosclasejava_2526.IO.texto;
 
 import java.io.*;
 import java.util.Scanner;
@@ -13,7 +13,7 @@ public class InformeCalificaciones {
         Scanner scanner = new Scanner(System.in);
         FileWriter fileWriter = null;
         PrintWriter printWriter = null;
-        String path = "src\\main\\java\\com\\programacion\\ejemplosclasejava_2526\\IO\\";
+        String path = "src\\main\\java\\com\\programacion\\ejemplosclasejava_2526\\IO\\texto\\";
 
         try {
             // Se abre el archivo en modo "append" para no sobrescribir los datos

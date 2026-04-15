@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.programacion.ejemplosclasejava_2526.IO;
+package com.programacion.ejemplosclasejava_2526.IO.texto;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -13,7 +13,7 @@ import java.util.Scanner;
  *
  * @author josem
  */
-public class LecturaPorTipo {
+public class LecturaPorTipo_v4 {
     private static void muestraContenidoFich(String nomFich) throws FileNotFoundException {
         Scanner in = null;
         try {
@@ -25,13 +25,19 @@ public class LecturaPorTipo {
             while (in.hasNext()) {
                 // lee primera palabra
                 String palabra = in.next();
-                System.out.println("Palabra:" + palabra);
+                double suma = 0;
+                int contador = 0;
+
                 // lee los números después de la palabra
                 while (in.hasNextDouble()) {
                     // lee un double
                     double d = in.nextDouble();
-                    System.out.println("Número:"+d);
+                    suma += d;
+                    contador++;
                 }
+
+                double media = contador > 0 ? suma / contador : 0;
+                System.out.printf("%s(media): %4.2f%n", palabra, media);
             } // while (in.hasNext())
         } finally {
             if (in != null){
@@ -41,7 +47,7 @@ public class LecturaPorTipo {
     } // método
     
     public static void main(String[] args) {
-        String path = "src\\main\\java\\com\\programacion\\ejemplosclasejava_2526\\IO\\";
+        String path = "src\\main\\java\\com\\programacion\\ejemplosclasejava_2526\\IO\\texto\\";
         String nombreFichero = "fichero_prueba.txt";
         
         try {

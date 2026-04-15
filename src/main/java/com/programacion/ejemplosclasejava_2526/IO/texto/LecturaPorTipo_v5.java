@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.programacion.ejemplosclasejava_2526.IO;
+package com.programacion.ejemplosclasejava_2526.IO.texto;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -64,7 +64,7 @@ public class LecturaPorTipo_v5 {
     } // método
     
     public static void main(String[] args) {
-        String path = "src\\main\\java\\com\\programacion\\ejemplosclasejava_2526\\IO\\";
+        String path = "src\\main\\java\\com\\programacion\\ejemplosclasejava_2526\\IO\\texto\\";
         String nombreFichero = "fichero_prueba_v2.txt";
         
         try {

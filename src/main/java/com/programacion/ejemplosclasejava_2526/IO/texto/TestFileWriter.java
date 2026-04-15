@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.programacion.ejemplosclasejava_2526.IO;
+package com.programacion.ejemplosclasejava_2526.IO.texto;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -21,7 +21,7 @@ public class TestFileWriter {
         // Fichero en carpeta de destino con ruta estática
         //File nomFich = new File("C:\\Users\\josem\\Repositorio\\Programacion\\EjemplosClaseJava_2526\\src\\main\\java\\com\\programacion\\ejemplosclasejava_2526\\IO\\prueba.csv");
         // Fichero en carpeta de destino con ruta dinámica
-        File nomFich = new File("src\\main\\java\\com\\programacion\\ejemplosclasejava_2526\\IO\\prueba.csv");
+        File nomFich = new File("src\\main\\java\\com\\programacion\\ejemplosclasejava_2526\\IO\\texto\\prueba.csv");
         
         // Codifica la información de los diferentes estudiantes en el aula
         String [] estudiantes = {"Diego", "Guerrero", "Alexander", "Paola", "Penarrieta",
