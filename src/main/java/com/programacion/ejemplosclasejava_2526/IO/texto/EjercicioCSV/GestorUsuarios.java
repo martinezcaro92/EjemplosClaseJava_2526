@@ -102,6 +102,7 @@ public class GestorUsuarios {
     // método guardarFichero
     public static void guardarFichero(String resultante, String fullName)
     {
+        System.out.println(resultante);
         try {
             PrintWriter pw = new PrintWriter(new FileWriter(fullName, true));
             pw.println(resultante);
@@ -128,7 +129,7 @@ public class GestorUsuarios {
         // Etapa 2: Añadir datos de usuario (si precisa) y guardar en CSV
         Scanner teclado = new Scanner (System.in);
         
-        System.out.print("¿Desea añadir nueva información? (s/n): ");
+        System.out.print("¿Desea anadir nueva informacion? (s/n): ");
         String respuesta = teclado.nextLine();
         
         if (respuesta.equalsIgnoreCase("s")) {
