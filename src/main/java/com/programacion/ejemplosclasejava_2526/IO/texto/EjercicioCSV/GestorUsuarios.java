@@ -130,16 +130,21 @@ public class GestorUsuarios {
         
         // Etapa 2: Añadir datos de usuario (si precisa) y guardar en CSV
         Scanner teclado = new Scanner (System.in);
+        boolean aux = true;
         
-        System.out.print("¿Desea anadir nueva informacion? (s/n): ");
-        String respuesta = teclado.nextLine();
-        
-        if (respuesta.equalsIgnoreCase("s")) {
-        // if (respuesta.equals("s") || respuesta.equals("S")) { // equivalente a la de arriba
-            System.out.println("-- Introduce los datos del nuevo usuario --");
-            String resultante = pedirDatosUsuario(teclado);
-            guardarFichero(resultante, fullName);
-        }
+        do {
+            System.out.print("¿Desea anadir nueva informacion? (s/n): ");
+            String respuesta = teclado.nextLine();
+
+            if (respuesta.equalsIgnoreCase("s")) {
+            // if (respuesta.equals("s") || respuesta.equals("S")) { // equivalente a la de arriba
+                System.out.println("-- Introduce los datos del nuevo usuario --");
+                String resultante = pedirDatosUsuario(teclado);
+                guardarFichero(resultante, fullName);
+            } else {
+                aux = false;
+            }
+        } while (aux);
         teclado.close();
     }   
 }
