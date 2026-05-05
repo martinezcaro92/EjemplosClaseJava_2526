@@ -1,0 +1,22 @@
+[
+  {
+    "username": "booker12",
+    "identifier": 9012,
+    "oneTimePassword": "12se74",
+    "recoveryCode": "rb9012",
+    "firstName": "Rachel",
+    "lastName": "Booker",
+    "department": "Sales",
+    "location": "Manchester"
+  },
+  {
+    "username": "grey07",
+    "identifier": 2070,
+    "oneTimePassword": "04ap67",
+    "recoveryCode": "lg2070",
+    "firstName": "Laura",
+    "lastName": "Grey",
+    "department": "Depot",
+    "location": "London"
+  }
+]
