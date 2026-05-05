@@ -102,15 +102,17 @@ public class GestorUsuarios {
     // método guardarFichero
     public static void guardarFichero(String resultante, String fullName)
     {
-        System.out.println(resultante);
+        PrintWriter pw = null;
         try {
-            PrintWriter pw = new PrintWriter(new FileWriter(fullName, true));
+            pw = new PrintWriter(new FileWriter(fullName, true));
             pw.println(resultante);
             System.out.println("El usuario se ha añadido correctamente");
         } catch (IOException e){
             System.out.println("Error: " + e);
         } catch (Exception e) {
             System.out.println("Error genérico: " + e);
+        } finally {
+            if (pw != null) pw.close();
         }     
     }
     
