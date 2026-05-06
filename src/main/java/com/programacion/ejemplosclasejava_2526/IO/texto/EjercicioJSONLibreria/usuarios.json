@@ -1,22 +1,22 @@
 [
   {
-    "username": "booker12",
     "identifier": 9012,
-    "oneTimePassword": "12se74",
-    "recoveryCode": "rb9012",
     "firstName": "Rachel",
     "lastName": "Booker",
+    "recoveryCode": "rb9012",
+    "location": "Manchester",
     "department": "Sales",
-    "location": "Manchester"
+    "username": "booker12",
+    "oneTimePassword": "12se74"
   },
   {
-    "username": "grey07",
     "identifier": 2070,
-    "oneTimePassword": "04ap67",
-    "recoveryCode": "lg2070",
     "firstName": "Laura",
     "lastName": "Grey",
+    "recoveryCode": "lg2070",
+    "location": "London",
     "department": "Depot",
-    "location": "London"
+    "username": "grey07",
+    "oneTimePassword": "04ap67"
   }
 ]
