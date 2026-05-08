@@ -32,6 +32,7 @@ com\programacion\ejemplosclasejava_2526\POO_avanzada\HerenciaEjercicio1\Ejercici
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20260213_final\Persona.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\Herencia\Ejercicio5\Camion.class
 com\programacion\ejemplosclasejava_2526\IO\binario\GuardarEstudiantes.class
+com\programacion\ejemplosclasejava_2526\IO\binario\EjercicioEmpleados\GestorEmpleado.class
 com\programacion\ejemplosclasejava_2526\Repasos\PrevUT3\StringEj14.class
 com\programacion\ejemplosclasejava_2526\Basicos\Bucles\EjWhile.class
 com\programacion\ejemplosclasejava_2526\CadenasDeCaracteres\Ej1.class
@@ -106,6 +107,7 @@ com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251205\Rectangulo.cla
 com\programacion\ejemplosclasejava_2526\POO_avanzada\Herencia\Ejercicio5\Ejercicio05.class
 com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion2T\IPagable.class
 com\programacion\ejemplosclasejava_2526\IO\texto\LecturaPorTipo_v4.class
+com\programacion\ejemplosclasejava_2526\IO\binario\EjercicioEmpleados\Empleado.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20260311\IValorable.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20260311\LimiteDescargasException.class
 com\programacion\ejemplosclasejava_2526\Excepciones\Propaga.class
@@ -129,6 +131,7 @@ com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion2T\DatosNoValidosEx
 com\programacion\ejemplosclasejava_2526\ArrayList\Clase.class
 com\programacion\ejemplosclasejava_2526\Excepciones\EjemploAnidado.class
 com\programacion\ejemplosclasejava_2526\Repasos\previoRecuperacion\TablasMultiplicar.class
+com\programacion\ejemplosclasejava_2526\IO\binario\EjercicioEmpleados\Persona.class
 com\programacion\ejemplosclasejava_2526\UT2\MinMaxArray.class
 com\programacion\ejemplosclasejava_2526\Metodos\CalculadoraNotaMediaConMetodosAvanzada.class
 com\programacion\ejemplosclasejava_2526\POO_avanzada\EjemploPoligono\Triangulo.class
@@ -165,6 +168,7 @@ com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion2T\Management.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionC\Ej2a.class
 com\programacion\ejemplosclasejava_2526\IO\binario\Estudiante.class
 com\programacion\ejemplosclasejava_2526\UT2\Media10EstudiantesBasica.class
+com\programacion\ejemplosclasejava_2526\IO\texto\EjercicioJSONLibreria\GestorUsuariosJSON.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20260311\Pelicula.class
 com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion1T\ReproductorMusica.class
 com\programacion\ejemplosclasejava_2526\JSON\Ejemplo1.class

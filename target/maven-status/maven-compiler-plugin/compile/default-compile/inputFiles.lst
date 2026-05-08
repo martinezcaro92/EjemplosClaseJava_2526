@@ -103,6 +103,9 @@ C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com
 C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\Excepciones\NumberFormatExample.java
 C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\Excepciones\Propaga.java
 C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\Excepciones\TestRango.java
+C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\IO\binario\EjercicioEmpleados\Empleado.java
+C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\IO\binario\EjercicioEmpleados\GestorEmpleado.java
+C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\IO\binario\EjercicioEmpleados\Persona.java
 C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\IO\binario\EscrituraDatosPrimitivos.java
 C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\IO\binario\Estudiante.java
 C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\IO\binario\GuardarEstudiantes.java
@@ -112,6 +115,7 @@ C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com
 C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\IO\binario\LeerProductos.java
 C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\IO\binario\Producto.java
 C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\IO\texto\EjercicioCSV\GestorUsuarios.java
+C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\IO\texto\EjercicioJSONLibreria\GestorUsuariosJSON.java
 C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\IO\texto\EjercicioJSONLibreria\GestorUsuariosJSONLib.java
 C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\IO\texto\InformeCalificaciones.java
 C:\Users\josem\Repositorio\Programacion\EjemplosClaseJava_2526\src\main\java\com\programacion\ejemplosclasejava_2526\IO\texto\LecturaCalificaciones.java
