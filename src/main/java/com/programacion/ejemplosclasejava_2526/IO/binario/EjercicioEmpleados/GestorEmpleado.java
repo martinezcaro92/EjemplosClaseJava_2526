@@ -4,8 +4,6 @@
  */
 package com.programacion.ejemplosclasejava_2526.IO.binario.EjercicioEmpleados;
 
-import static com.programacion.ejemplosclasejava_2526.IO.texto.EjercicioCSV.GestorUsuarios.guardarFichero;
-import static com.programacion.ejemplosclasejava_2526.IO.texto.EjercicioCSV.GestorUsuarios.pedirDatosUsuario;
 import java.io.EOFException;
 import java.io.File;
 import java.io.FileInputStream;
@@ -28,9 +26,13 @@ public class GestorEmpleado {
         int contador = 0;
         ObjectInputStream ois = null;
         try {
+            // La información del fichero binario "empleados.dat" se obtiene a partir
+            // de las siguiente línea
             ois = new ObjectInputStream(new FileInputStream(archivo));
             while (true)
             {
+                // Se realiza un casting implícito de cada objeto encontrado en el fichero
+                // binario y se imprime su contenido mediante el método toString()
                 Empleado emp = (Empleado) ois.readObject();
                 System.out.println(emp.toString());
                 contador++;
@@ -46,11 +48,34 @@ public class GestorEmpleado {
         }
     }
     
-    // Método solicitar información para nuevos empleados
+    // Método solicitar información para nuevos empleados. Nuevo método incluído
+    // Para segmentar esta parte del código de forma específica. Devuelve un objeto 
+    // Empleado a partir de los datos recogidos por teclado
+    public static Empleado infoNuevosEmpleados (Scanner teclado)
+    {
+        System.out.print("Introduce el DNI: ");
+        String dni = teclado.nextLine();
+        System.out.print("Introduce el Nombre: ");
+        String nombre = teclado.nextLine();
+        System.out.print("Introduce el Número Empleado: ");
+        int numEmpleado = teclado.nextInt();
+        
+        // En el desarrollo hemos tenido un problema a la hora de tomar el 
+        // departamento, y la línea siguiente lo solventa
+        teclado.nextLine();
+
+        System.out.print("Introduce el Departamento: ");
+        String departamento = teclado.nextLine();
+        
+        Empleado empleado = new Empleado(dni, nombre, numEmpleado, departamento);
+        return empleado;
+    }
     
-    // Método escribir empleados
+    
+    // Método escribir empleados en el fichero binario "empleados.dat"
     public static void escribirEmpleado (File archivo, Empleado empleado) throws IOException
     {
+        // Los nuevos objetos Empleados generados se añaden al final del fichero existente
         ObjectOutputStream oos = null;
         try {
             oos = new ObjectOutputStream (new FileOutputStream (archivo, true));
@@ -72,11 +97,13 @@ public class GestorEmpleado {
         String path = "src\\main\\java\\com\\programacion\\ejemplosclasejava_2526\\IO\\binario\\EjercicioEmpleados";
         String fullName = path + "\\" + fileName;
         
-        // Comprobamos si el fichero existe o no
+        // Comprobamos si el fichero binario "empleados.dat" existe o no en la ruta
+        // marcada previamente
         File archivo = new File(fullName);
         if (archivo.exists())
-        {
-            
+        {  
+            // Si el fichero existe se trata de leer los objetos incluídos
+            // en caso contrario se lanza un error
             try {
                 leerEmpleados(archivo);
             } catch (IOException ex) {
@@ -85,25 +112,19 @@ public class GestorEmpleado {
         } 
         String respuesta;
         do {
-            System.out.print("¿Desea anadir otro empleado? (s/n):");
+            // Se pregunta si se desea añadir un nuevo empleado. En caso de respuesta
+            // Afirmativa se continua con el proceso mientras no se responda n/N
+            System.out.print("¿Desea anadir otro empleado? (s/n): ");
             Scanner teclado = new Scanner(System.in);
             respuesta = teclado.nextLine();
             if (respuesta.equalsIgnoreCase("s")) {
                 // if (respuesta.equals("s") || respuesta.equals("S")) { // equivalente a la de arriba
-                System.out.print("Introduce el DNI: ");
-                String dni = teclado.nextLine();
-                System.out.print("Introduce el Nombre: ");
-                String nombre = teclado.nextLine();
-                System.out.print("Introduce el Número Empleado: ");
-                int numEmpleado = teclado.nextInt();
-                // En el desarrollo hemos tenido un problema a la hora de tomar el 
-                // departamento, y la línea siguiente lo solventa
-                teclado.nextLine();
+                // La información del nuevo empleado se recoge en el método infoNuevosEmpleados
+                // que devuelve un objeto Empleado
+                Empleado empleado = infoNuevosEmpleados(teclado);
 
-                System.out.print("Introduce el Departamento: ");
-                String departamento = teclado.nextLine();
-                Empleado empleado = new Empleado (dni, nombre, numEmpleado, departamento);
-
+                // Si el objeto empleado se ha generado correctamente se escribe el objeto
+                // al final del fichero binario
                 try { 
                     escribirEmpleado(archivo, empleado);
                 } catch (IOException ex) {
