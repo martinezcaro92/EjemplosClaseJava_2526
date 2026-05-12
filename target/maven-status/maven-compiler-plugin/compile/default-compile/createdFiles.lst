@@ -128,6 +128,7 @@ com\programacion\ejemplosclasejava_2526\Excepciones\NumberFormatExample.class
 com\programacion\ejemplosclasejava_2526\Basicos\EstructurasControl\EjSwitchCase.class
 com\programacion\ejemplosclasejava_2526\Excepciones\EjercicioTipoExamen\EvaluacionFueraDeRangoException.class
 com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion2T\DatosNoValidosException.class
+com\programacion\ejemplosclasejava_2526\IO\binario\EjercicioEmpleados\GestorEmpleadoTabla.class
 com\programacion\ejemplosclasejava_2526\ArrayList\Clase.class
 com\programacion\ejemplosclasejava_2526\Excepciones\EjemploAnidado.class
 com\programacion\ejemplosclasejava_2526\Repasos\previoRecuperacion\TablasMultiplicar.class
