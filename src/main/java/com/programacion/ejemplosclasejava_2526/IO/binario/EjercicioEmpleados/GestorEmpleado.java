@@ -83,27 +83,33 @@ public class GestorEmpleado {
                 System.out.println("Error: " + ex);
             }
         } 
-        
-        System.out.println("¿Desea anadir otro empleado? (s/n):");
-        Scanner teclado = new Scanner(System.in);
-        String respuesta = teclado.nextLine();
-        if (respuesta.equalsIgnoreCase("s")) {
-            // if (respuesta.equals("s") || respuesta.equals("S")) { // equivalente a la de arriba
-            System.out.print("Introduce el DNI: ");
-            String dni = teclado.nextLine();
-            System.out.print("Introduce el Nombre: ");
-            String nombre = teclado.nextLine();
-            System.out.print("Introduce el Número Empleado: ");
-            int numEmpleado = teclado.nextInt();
-            System.out.print("Introduce el Departamento: ");
-            String departamento = teclado.nextLine();
-            Empleado empleado = new Empleado (dni, nombre, numEmpleado, departamento);
-            try { 
-                escribirEmpleado(archivo, empleado);
-            } catch (IOException ex) {
-                System.out.println("Error: " + ex);
-            }
-        } 
-        
+        String respuesta;
+        do {
+            System.out.print("¿Desea anadir otro empleado? (s/n):");
+            Scanner teclado = new Scanner(System.in);
+            respuesta = teclado.nextLine();
+            if (respuesta.equalsIgnoreCase("s")) {
+                // if (respuesta.equals("s") || respuesta.equals("S")) { // equivalente a la de arriba
+                System.out.print("Introduce el DNI: ");
+                String dni = teclado.nextLine();
+                System.out.print("Introduce el Nombre: ");
+                String nombre = teclado.nextLine();
+                System.out.print("Introduce el Número Empleado: ");
+                int numEmpleado = teclado.nextInt();
+                // En el desarrollo hemos tenido un problema a la hora de tomar el 
+                // departamento, y la línea siguiente lo solventa
+                teclado.nextLine();
+
+                System.out.print("Introduce el Departamento: ");
+                String departamento = teclado.nextLine();
+                Empleado empleado = new Empleado (dni, nombre, numEmpleado, departamento);
+
+                try { 
+                    escribirEmpleado(archivo, empleado);
+                } catch (IOException ex) {
+                    System.out.println("Error: " + ex);
+                }
+            } 
+        } while (respuesta.equalsIgnoreCase("s"));
     }
 }
