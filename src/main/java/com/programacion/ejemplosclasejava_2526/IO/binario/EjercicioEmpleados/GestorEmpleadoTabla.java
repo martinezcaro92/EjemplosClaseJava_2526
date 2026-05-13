@@ -35,7 +35,7 @@ public class GestorEmpleadoTabla {
             for (Field cP : camposPadre)
             {
                 campos2.add(cP.getName());
-                System.out.println(cP.getName()); // Permite obtener el nombre del campo
+//                System.out.println(cP.getName()); // Permite obtener el nombre del campo
             }
             
             // Se obtienen los atributos de la clase Empleado
@@ -43,8 +43,18 @@ public class GestorEmpleadoTabla {
             for (Field campo : campos)
             {
                 campos2.add(campo.getName());
-                System.out.println(campo.getName()); // Permite obtener el nombre del campo
+//                System.out.println(campo.getName()); // Permite obtener el nombre del campo
             }
+            
+            // Imprimir la cabecera de la tabla de forma formateada. Todo se realiza
+            // de forma dinámica sin incluir manualmente ninguna información
+            System.out.println("=============================================================================================");
+            for (String c : campos2)
+            {
+                System.out.printf("%-15s", c);
+            }
+            System.out.println(); // Salto de línea al acabar el bucle for
+            System.out.println("=============================================================================================");
             
             // La información del fichero binario "empleados.dat" se obtiene a partir
             // de las siguiente línea
@@ -56,13 +66,18 @@ public class GestorEmpleadoTabla {
                 Empleado emp = (Empleado) ois.readObject();
 
                 //A partir de aquí hay que codificar la información para imprimirla en formato tabla
-                
-
+                System.out.printf("%-15s", emp.getDni());
+                System.out.printf("%-15s", emp.getNombre());
+                System.out.printf("%-15s", emp.getNumEmpleado());
+                System.out.printf("%-15s", emp.getDepartamento());
+                System.out.println();
                 contador++;
+                
             }
         } catch (FileNotFoundException e) {
             System.out.println("Error: " + e);
         } catch (EOFException e) {
+            System.out.println("=============================================================================================");
             System.out.println("Fichero leído correctamente. Número de empleados recibidos: " + contador);
         } catch (Exception e) {
             System.out.println("Error genérico: " + e);

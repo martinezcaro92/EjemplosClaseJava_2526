@@ -118,6 +118,7 @@ com\programacion\ejemplosclasejava_2526\Basicos\EstructurasControl\EjemploIfElse
 com\programacion\ejemplosclasejava_2526\UT2\Media10EstudiantesArray.class
 com\programacion\ejemplosclasejava_2526\Excepciones\ArrayIndexOutOfBoundsExample.class
 com\programacion\ejemplosclasejava_2526\Metodos\Teoria.class
+com\programacion\ejemplosclasejava_2526\BBDD\EjemploConexion\GenerarBD.class
 com\programacion\ejemplosclasejava_2526\Examenes\Parcial_20251016\OpcionB\Ej4b.class
 com\programacion\ejemplosclasejava_2526\UT2\PorcentajeEstudiantes.class
 com\programacion\ejemplosclasejava_2526\IO\binario\Producto.class
@@ -130,6 +131,7 @@ com\programacion\ejemplosclasejava_2526\Excepciones\EjercicioTipoExamen\Evaluaci
 com\programacion\ejemplosclasejava_2526\Examenes\Recuperacion2T\DatosNoValidosException.class
 com\programacion\ejemplosclasejava_2526\IO\binario\EjercicioEmpleados\GestorEmpleadoTabla.class
 com\programacion\ejemplosclasejava_2526\ArrayList\Clase.class
+com\programacion\ejemplosclasejava_2526\BBDD\EjemploConexion\EjemploAccesoBD.class
 com\programacion\ejemplosclasejava_2526\Excepciones\EjemploAnidado.class
 com\programacion\ejemplosclasejava_2526\Repasos\previoRecuperacion\TablasMultiplicar.class
 com\programacion\ejemplosclasejava_2526\IO\binario\EjercicioEmpleados\Persona.class
