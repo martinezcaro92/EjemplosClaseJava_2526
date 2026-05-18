@@ -66,7 +66,7 @@ public class GenerarBD {
 
             // Eliminamos primero las tablas existentes (si las hubiese)
             eliminarTabla(connBD, "Empleado");
-            eliminarTabla(connBD, "Persona");
+            eliminarTabla(connBD, "Personas");
 
             // Las creamos de nuevo con la estructura deseada
             crearTablaEmpleado(connBD);
@@ -210,7 +210,7 @@ public class GenerarBD {
      */
     public static void crearTablaPersona(Connection conn) throws SQLException {
         String sql =
-            "CREATE TABLE Persona ("                             +
+            "CREATE TABLE Personas ("                             +
             "  id        INT(11)      NOT NULL AUTO_INCREMENT,"  +
             "  nombre    VARCHAR(255) NOT NULL,"                 +
             "  apellidos VARCHAR(255) DEFAULT NULL,"             +
