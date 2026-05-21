@@ -1,0 +1,6 @@
+[
+  { "producto": "Cafe con leche", "cantidad": 2, "precio": 1.5  },
+  { "producto": "Tostada con tomate", "cantidad": 1, "precio": 2.0  },
+  { "producto": "Zumo de naranja", "cantidad": 3, "precio": 2.5  },
+  { "producto": "Bocadillo jamon", "cantidad": 1, "precio": 3.5  }
+]

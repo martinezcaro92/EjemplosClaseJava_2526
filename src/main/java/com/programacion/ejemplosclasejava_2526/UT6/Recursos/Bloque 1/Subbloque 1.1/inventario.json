@@ -1,0 +1,9 @@
+[
+  { "nombre": "Teclado mecanico", "categoria": "Perifericos", "precio": 89.99, "stock": 15 },
+  { "nombre": "Monitor 27 pulgadas", "categoria": "Pantallas", "precio": 349.00, "stock": 6 },
+  { "nombre": "Raton inalambrico", "categoria": "Perifericos", "precio": 34.50, "stock": 22 },
+  { "nombre": "Auriculares gaming", "categoria": "Audio", "precio": 79.95, "stock": 10 },
+  { "nombre": "Webcam HD", "categoria": "Video", "precio": 55.00, "stock": 8 },
+  { "nombre": "SSD 1TB", "categoria": "Almacenamiento", "precio": 99.00, "stock": 30 },
+  { "nombre": "Hub USB-C", "categoria": "Conectividad", "precio": 29.99, "stock": 18 }
+]

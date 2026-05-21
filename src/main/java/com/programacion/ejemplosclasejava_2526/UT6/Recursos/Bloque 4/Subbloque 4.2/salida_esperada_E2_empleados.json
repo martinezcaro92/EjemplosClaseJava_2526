@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "nombre": "Elena",
+    "apellidos": "Garcia Ruiz",
+    "departamento": "Informatica",
+    "salario": 2800.0
+  },
+  {
+    "id": 2,
+    "nombre": "Raul",
+    "apellidos": "Perez Molina",
+    "departamento": "Recursos Humanos",
+    "salario": 2400.0
+  },
+  {
+    "id": 3,
+    "nombre": "Laura",
+    "apellidos": "Sanz Torres",
+    "departamento": "Ventas",
+    "salario": 2100.0
+  },
+  {
+    "id": 4,
+    "nombre": "Carlos",
+    "apellidos": "Lopez Blanco",
+    "departamento": "Informatica",
+    "salario": 3100.0
+  },
+  {
+    "id": 5,
+    "nombre": "Patricia",
+    "apellidos": "Ruiz Castillo",
+    "departamento": "Contabilidad",
+    "salario": 2600.0
+  },
+  {
+    "id": 6,
+    "nombre": "Miguel",
+    "apellidos": "Vidal Navarro",
+    "departamento": "Ventas",
+    "salario": 2250.0
+  }
+]

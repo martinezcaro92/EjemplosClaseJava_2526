@@ -1,0 +1,6 @@
+titulo,responsable,fecha_limite,estado
+Diseno de base de datos,Ana Garcia,2025-02-01,completada
+Desarrollo modulo login,Luis Perez,2025-02-15,en progreso
+Testing de la API,Carmen Ruiz,2025-03-01,pendiente
+Documentacion tecnica,David Sanz,2025-03-10,pendiente
+Despliegue en produccion,Ana Garcia,2025-03-20,pendiente

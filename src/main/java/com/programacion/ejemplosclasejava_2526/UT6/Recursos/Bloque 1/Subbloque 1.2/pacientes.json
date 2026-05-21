@@ -1,0 +1,20 @@
+[
+  {
+    "nombre": "Carlos Mendez",
+    "fecha_nacimiento": "1985-03-22",
+    "grupo_sanguineo": "A+",
+    "alergias": "Penicilina"
+  },
+  {
+    "nombre": "Lucia Fernandez",
+    "fecha_nacimiento": "1992-07-14",
+    "grupo_sanguineo": "O-",
+    "alergias": "Ninguna"
+  },
+  {
+    "nombre": "Andres Castillo",
+    "fecha_nacimiento": "1978-11-05",
+    "grupo_sanguineo": "B+",
+    "alergias": "Aspirina, Polen"
+  }
+]

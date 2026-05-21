@@ -1,0 +1,7 @@
+[
+  { "nombre_alumno": "Ana Garcia",    "asignatura": "Programacion", "calificacion": 9.0 },
+  { "nombre_alumno": "Luis Perez",    "asignatura": "Programacion", "calificacion": 6.5 },
+  { "nombre_alumno": "Marta Sanz",    "asignatura": "Bases de Datos","calificacion": 8.0 },
+  { "nombre_alumno": "David Ruiz",    "asignatura": "Bases de Datos","calificacion": 5.5 },
+  { "nombre_alumno": "Sofia Torres",  "asignatura": "Programacion", "calificacion": 7.0 }
+]

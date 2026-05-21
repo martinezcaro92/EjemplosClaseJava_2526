@@ -1,0 +1,8 @@
+[
+  { "id": 1, "nombre": "Sofia Torres",  "curso": "DAM1" },
+  { "id": 2, "nombre": "Pablo Mora",    "curso": "DAM1" },
+  { "id": 4, "nombre": "Mario Vidal",   "curso": "DAM2" },
+  { "id": 5, "nombre": "Nerea Blanco",  "curso": "DAW1" },
+  { "id": 3, "nombre": "Lucia Fuentes", "curso": "DAW2" },
+  { "id": 6, "nombre": "Oscar Molina",  "curso": "DAW2" }
+]

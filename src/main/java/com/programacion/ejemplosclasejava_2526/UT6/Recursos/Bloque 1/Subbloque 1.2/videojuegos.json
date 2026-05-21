@@ -1,0 +1,8 @@
+[
+  { "titulo": "The Legend of Zelda: Breath of the Wild", "plataforma": "Nintendo Switch", "desarrollador": "Nintendo",        "anio": 2017 },
+  { "titulo": "God of War",                              "plataforma": "PlayStation 4",   "desarrollador": "Santa Monica",    "anio": 2018 },
+  { "titulo": "Halo Infinite",                           "plataforma": "Xbox Series X",   "desarrollador": "343 Industries",  "anio": 2021 },
+  { "titulo": "The Witcher 3",                           "plataforma": "PC",              "desarrollador": "CD Projekt Red",  "anio": 2015 },
+  { "titulo": "Minecraft",                               "plataforma": "Multiplataforma", "desarrollador": "Mojang",          "anio": 2011 },
+  { "titulo": "Elden Ring",                              "plataforma": "PC",              "desarrollador": "FromSoftware",    "anio": 2022 }
+]

@@ -1,0 +1,30 @@
+INSTRUCCIONES PARA LOS EJERCICIOS DEL SUBBLOQUE 4.2
+=====================================================
+
+Estos ejercicios leen datos de una BD y los exportan a CSV o JSON.
+Preparar cada BD con los scripts indicados antes de ejecutar el Java.
+
+  Ejercicio 1 (inventario tienda → CSV, BD: tienda_online)
+    1. Bloque 3/Subbloque 3.3/setup_tienda_online.sql
+    2. Bloque 3/Subbloque 3.2/poblar_tienda_online.sql
+    Salida esperada: src/datos/inventario_exportado.csv
+
+  Ejercicio 2 (empleados → JSON, BD: personas)
+    1. Ejecutar EjemploAccesoBD.java o GenerarBD.java (del material de clase)
+    2. Bloque 3/Subbloque 3.2/poblar_personas.sql
+    Salida esperada: src/datos/empleados_exportados.json
+
+  Ejercicio 3 (reservas hotel → CSV, BD: hotel)
+    1. Bloque 3/Subbloque 3.1/hotel.sql
+    2. Bloque 3/Subbloque 3.2/poblar_hotel.sql
+    Salida esperada: src/datos/reservas_exportadas.csv
+
+  Ejercicio 4 (alumnos → JSON, BD: instituto)
+    1. Bloque 3/Subbloque 3.3/setup_instituto.sql
+    2. Bloque 3/Subbloque 3.2/poblar_instituto.sql
+    Salida esperada: src/datos/alumnos_exportados.json
+
+  Ejercicio 5 (libros → CSV, BD: red_bibliotecas)
+    1. Bloque 3/Subbloque 3.4/red_bibliotecas.sql
+       (ya incluye los datos de autores y libros)
+    Salida esperada: src/datos/libros_exportados.csv

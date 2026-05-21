@@ -1,0 +1,51 @@
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+
+/**
+ * Subbloque 3.5 - Ejercicio 5
+ * Exportación de catálogo de libros a CSV (BD: red_bibliotecas)
+ * Adaptar la sentencia SQL y los campos del ResultSet según el enunciado.
+ */
+public class Ejercicio5 {
+
+    private static final String URL      = "jdbc:mysql://localhost:3306/red_bibliotecas";
+    private static final String USER     = "root";
+    private static final String PASSWORD = "RootPass123!";
+
+    public static void exportar(String fullName) {
+        // Pega aquí la sentencia SQL del enunciado
+        String sql = "SELECT ..."; // <-- reemplazar
+
+        PrintWriter pw = null;
+        try (Connection conn = DriverManager.getConnection(URL, USER, PASSWORD)) {
+            Statement st = conn.createStatement();
+            ResultSet rs = st.executeQuery(sql);
+
+            pw = new PrintWriter(new FileWriter(fullName, false));
+            pw.println("col1,col2,..."); // cabecera — adaptar
+            int total = 0;
+            while (rs.next()) {
+                pw.printf("%s,%s%n", rs.getString(1), rs.getString(2)); // adaptar
+                total++;
+            }
+            System.out.println("Exportados " + total + " registros a: " + fullName);
+        } catch (SQLException e) {
+            System.out.println("Error BD: " + e.getMessage());
+        } catch (IOException e) {
+            System.out.println("Error fichero: " + e.getMessage());
+        } finally {
+            if (pw != null) pw.close();
+        }
+    }
+
+    public static void main(String[] args) {
+        exportar("src\\main\\java\\com\\programacion\\ejemplosclasejava_2526\\UT6\\Bloque 3\\Subbloque 3.5\\libros_exportados.csv");
+    }
+}

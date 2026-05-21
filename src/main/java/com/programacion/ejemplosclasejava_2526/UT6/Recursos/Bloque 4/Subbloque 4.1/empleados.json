@@ -1,0 +1,7 @@
+[
+  { "nombre": "Elena",  "apellidos": "Garcia Lopez",   "departamento": "IT",   "salario": 2800.0 },
+  { "nombre": "Raul",   "apellidos": "Perez Vega",     "departamento": "RRHH", "salario": 2400.0 },
+  { "nombre": "Pilar",  "apellidos": "Torres Ruiz",    "departamento": "IT",   "salario": 3100.0 },
+  { "nombre": "Andres", "apellidos": "Molina Serrano", "departamento": "Ventas","salario": 2600.0 },
+  { "nombre": "Nuria",  "apellidos": "Blanco Diaz",    "departamento": "RRHH", "salario": 2200.0 }
+]

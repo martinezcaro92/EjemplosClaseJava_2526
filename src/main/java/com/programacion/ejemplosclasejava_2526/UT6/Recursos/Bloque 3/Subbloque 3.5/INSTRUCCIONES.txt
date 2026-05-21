@@ -1,0 +1,24 @@
+INSTRUCCIONES PARA LOS EJERCICIOS DEL SUBBLOQUE 3.5
+=====================================================
+
+Estos ejercicios leen datos de una BD existente y los exportan a fichero.
+Ejecutar los scripts en el orden indicado antes de cada ejercicio:
+
+  Ejercicio 1 (productos a CSV, BD: tienda_online)
+    1. Bloque 3/Subbloque 3.3/setup_tienda_online.sql
+    2. Bloque 3/Subbloque 3.2/poblar_tienda_online.sql
+
+  Ejercicio 2 (alumnos a JSON, BD: instituto)
+    1. Bloque 3/Subbloque 3.3/setup_instituto.sql
+    2. Bloque 3/Subbloque 3.2/poblar_instituto.sql
+
+  Ejercicio 3 (reservas de hotel a CSV, BD: hotel)
+    1. Bloque 3/Subbloque 3.1/hotel.sql
+    2. Bloque 3/Subbloque 3.2/poblar_hotel.sql
+
+  Ejercicio 4 (alumnos a JSON v2, BD: instituto)
+    Misma preparación que el Ejercicio 2.
+
+  Ejercicio 5 (catálogo de libros a CSV, BD: red_bibliotecas)
+    1. Bloque 3/Subbloque 3.4/red_bibliotecas.sql
+       (ya incluye datos de autores y libros)
