@@ -1,0 +1,11 @@
+empleado_id;nombre;apellidos;departamento;puesto;salario_base;complementos;fecha_alta;activo
+1;Ana;Garcia Lopez;Desarrollo;Programadora;2800.00;350.00;2021-03-15;true
+2;Carlos;Fernandez Ruiz;Desarrollo;Desarrollador Senior;3500.00;500.00;2019-07-01;true
+3;Maria;Lopez Torres;Diseño;Diseñadora UX;2600.00;300.00;2022-01-10;true
+4;Jorge;Blanco Serrano;Sistemas;Administrador de Sistemas;3200.00;450.00;2020-05-20;true
+5;Laura;Sanchez Vega;Recursos Humanos;Tecnica de RRHH;2400.00;200.00;2021-09-05;true
+6;Pedro;Martinez Gil;Desarrollo;Junior Developer;2100.00;150.00;2023-02-14;true
+7;Sofia;Torres Reyes;Diseño;Diseñadora Grafica;2500.00;280.00;2022-06-01;false
+8;David;Sanz Ortega;Sistemas;Tecnico de Redes;2900.00;400.00;2018-11-12;true
+9;Elena;Castillo Rico;Direccion;Project Manager;4200.00;700.00;2017-04-03;true
+10;Raul;Jimenez Vidal;Desarrollo;Desarrollador Full Stack;3800.00;550.00;2020-08-22;true
